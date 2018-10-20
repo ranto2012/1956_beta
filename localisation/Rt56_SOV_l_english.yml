@@ -1,0 +1,94 @@
+﻿l_english:
+
+ #Focuses 
+
+ SOV_finish_the_five_year_plan:0 "Continue The Five Year Plan"
+ #
+ SOV_siberian_railnetworks:0 "Improve Siberian Railnetworks"
+ #
+ SOV_improve_western_railnetworks:0 "Improve Western Railnetworks"
+ #
+ SOV_Improve_TransSiberian_Railway:0 "Improve the Trans-Siberian Railway"
+ SOV_Improve_TransSiberian_Railway_desc:0 "We should continue to develop rail lines connecting the eastern and western parts of the country, including the transiberian railway and connected railways. We need to be able to move supplies and other tonnage efficiently cross-country for defensive purposes."
+ SOV_Siberian_Industry:0 "Develop Siberian Industry"
+ #
+ SOV_Develop_Vladivstok:0 "Develop Vladivstok"
+ #
+ SOV_Develop_The_Ural_Moutain_Region:0 "Develop The Ural Mountain Region"
+ SOV_Develop_The_Ural_Moutain_Region_desc:0 "The Ural Mountains have numerous mineral deposits that we can exploit, bringing jobs to poor peasants and ores to sleepy factories."
+ #
+ #
+ SOV_Develop_Oil_Concern:0 "Develop Oil Concern"
+ SOV_Develop_Oil_Concern_desc:0 "We need to invest in more prospecting and building more refineries to take advantage of our massive oil deposits in the caucases."
+ SOV_industrial_cities:0 "Form Additional Industrial Cities"
+ #
+ SOV_third_five_year_plan:0 "Finish The Five Year Plan"
+ #
+ SOV_steel_industry_improvements:0 "Steel Industry Improvements"
+ #
+ #
+ #
+ SOV_Invest_in_Engineering:0 "Invest In Engineering"
+ #
+ SOV_urbanization:0 "Forced Urbanization"
+ #
+ SOV_Social_Welfare:0 "Social Welfare"
+ SOV_Social_Welfare_desc:0 ""
+ SOV_Education_Initiative:0 "Education Initiative"
+ SOV_Education_Initiative_desc:0 ""
+ SOV_Mass_Immunizations:0 "Mass Immunizations"
+ SOV_Mass_Immunizations_desc:0 ""
+ #
+ #
+ #
+ #
+ SOV_rocket_focus:0 "Rocket Experiemnts"
+ #
+ SOV_nuke_focus:0 "Laboratory No. 2"
+ #
+ SOV_further_the_progress_cult:0 "Further the Progress Cult"
+ #
+ SOV_move_capital_to_sverdlovsk:0 "Move Capital to Sverdlovsk"
+ #
+ SOV_bt7_development:0 "BT-7 Development"
+ #Ideas
+
+ SOV_social_welfare_focus:0 "Social Welfare"
+ #
+ SOV_low_literacy_rate_idea:0 "Low Literacy Rate"
+ #
+ SOV_invest_in_engineering_focus:0 "Investment In Engineering"
+ #
+ SOV_urbanization_focus:0 "Urbanization"
+ #
+ SOV_urbanization_focus_debuff:0 "Forced Relocation"
+ #
+ SOV_poor_railnetworks_0:0 "Poor Railnetworks"
+ #
+ SOV_poor_railnetworks_1:0 "Poor Railnetworks"
+ #
+ SOV_poor_railnetworks_2:0 "Poor Railnetworks"
+ #
+ SOV_revolutionized_industry_ghost:0 "Revolutionized Industry"
+ #
+ SOV_revolutionized_industry_1:0 "Revolutionized Industry"
+ #
+ SOV_revolutionized_industry_2:0 "Revolutionized Industry"
+ #
+ SOV_industry_slow_down:0 "Industry Slow Down"
+ #
+ SOV_risk_of_disease:0 "Risk Of Disease"
+ #
+ SOV_proliferation_of_disease:0 "Proliferation of Disease"
+ #
+ SOV_widespread_outbreaks:0 "Widespread Outbreaks"
+ #
+ SOV_engineering_push:0 "Industrial Push"
+ #
+ SOV_poorly_educated_population:0 "Poorly Educated Population"
+ #
+ progress_cult_focus_2:0 "Progress Cult"
+ #Tooltips
+
+ SOV_invest_in_enigneering_tooltip:0 "§WOther Industrial Focuses Will Now Gain §YIndustrial Push §WNational Spirit, which grants\n(Construction Speed: §G+5.00%§W) for §Y30 §Wdays.\n"
+ SOV_move_capital_to_sverdlovsk_effect:0 "§YSverdlovsk§W:\n  Becomes capital.\n  Adds §Y12 Land Forts§! in and around Sverdlovsk.\n§W  Add §G4§W Building Slots.\n"
