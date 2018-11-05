@@ -2666,4 +2666,229 @@ focus = {
 			add_ideas = peoples_commissariat_focus
 		}
 	}
+	focus = {
+		id = SOV_trotskyite_victory
+		icon = GFX_goal_support_fourth_int
+		x = 24
+		y = 0
+		relative_position_id = SOV_improve_railway
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+			add_ideas = SOV_internal_chaos
+		}
+	}
+	focus = {
+		id = SOV_solidify_interal_control
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_trotskyite_victory }
+		x = 23
+		y = 1
+		relative_position_id = SOV_improve_railway
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_initial_reforms
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_trotskyite_victory }
+		x = 25
+		y = 1
+		relative_position_id = SOV_improve_railway
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_industrial_strategy
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_initial_reforms }
+		prerequisite = { focus = SOV_solidify_interal_control }
+		x = 24
+		y = 2
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = SOV_nationwide_inspections_1
+		}
+	}
+	focus = {
+		id = SOV_begin_destalinization
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_industrial_strategy}
+		x = 22
+		y = 3
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_trotskyite_narrative
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus =  SOV_begin_destalinization}
+		x = 22
+		y = 4
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_our_hero_our_saviour
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus =  SOV_trotskyite_narrative}
+		x = 22
+		y = 5
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_conduct_nationwide_inspections
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_industrial_strategy}
+		x = 24
+		y = 3
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_recalibration_of_quotas
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_industrial_strategy }
+		x = 24
+		y = 4
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_localized_quality_control
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_recalibration_of_quotas }
+		x = 24
+		y = 5
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_status_of_labour_unions
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_industrial_strategy}
+		x = 26
+		y = 3
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_enshrine_labour_unions
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_status_of_labour_unions}
+		x = 26
+		y = 4
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_nationalization_of_labour_unions
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = SOV_enshrine_labour_unions}
+		x = 26
+		y = 5
+		relative_position_id = SOV_improve_railway
+		cost = 14.4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
 	
