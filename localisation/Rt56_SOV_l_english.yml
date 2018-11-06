@@ -1,7 +1,39 @@
 ﻿l_english:
 
  #Focuses 
-
+ #Trotsky Tree (Focuses & Desc)
+ SOV_trotskyite_victory:0 "Trotskyite Victory"
+ SOV_trotskyite_victory_desc:0 "Having ousted the tyrant Joseph Stalin and purging his cronies and deplorable yes-men, we can finally begin to rebuild the Soviet Union in an image that would make both Lenin and Marx proud. This will not be an easy task, but the collective strength of the Workers will unite to accomplish this task!"
+ SOV_solidify_internal_control:0 "Solidify Internal Control"
+ SOV_solidify_internal_control_desc:0 "While we have conducted initial steps to maintain an iron grip over the state through aggressively purging problem elements from the Stalin regime, we must begin to replace those who have been removed from their positions with individuals friendly to the new established leadership."
+ SOV_initial_reforms:0 "Initial Reforms"
+ SOV_initial_reforms_desc:0 "With the Cult of Personality of Stalin firmly entrenched in society, it is clear that the Soviet society must be rebuilt from the ground up. This will take time and effort, but we can begin with reforming policies which do not fit with the new direction of the Soviet Union."
+ SOV_industrial_strategy:0 "War on Industry"
+ SOV_industrial_strategy_desc:0 "While the concept of a Five Year Plan is sound on the surface, the shortcomings of the Stalin regime in it's execution are well known even if they have not been openly talked about until now. With our new regime, we must conduct inspections of every facet of the Five Year Plan. We will identify it's weakpoints and eradicate them like any other enemy of the Union."
+ SOV_begin_destalinization:0 "Begin De-Stalinization"
+ SOV_begin_destalinization_desc:0 "Joseph Stalin spent years crafting a Cult of Personality over the people of the Soviet Union. If we are to succeed in our goal of spreading our true socialist values across the globe, we must begin to remove and eradicate any remains of Stalins defunct regime. We will erase his legacy from the annals of history."
+ SOV_trotskyite_narrative:0 "The Trotskyite Narrative"
+ SOV_trotskyite_narrative_desc:0 "The people have been fed lies and slander by the dead tyrant Stalin. We must put our ministries to task and ensure that the people are given the true story of our leader, Leon Trotsky. We must ensure that all within our nation know the wrongful nature which Stalin came to power, and that the true heir to the Soviet Union after Lenin was in fact our very own Leon Trotsky."
+ SOV_our_hero_our_saviour:0 "Our Hero, Our Saviour"
+ SOV_our_hero_our_saviour_desc:0 "The struggle of our Great Leader must be known by all! The valiant heroism displayed by Leon Trotsky will fill cinemas, posters and the pages of newspapers and books. All will be able to bask in the light that is the true story of our saviour, Leon Trotsky."
+ SOV_conduct_nationwide_inspections:0 "Conduct Nationwide Inspections"
+ SOV_conduct_nationwide_inspections_desc:0 "Having conducted our initial analysis over the implementation of the Five Year Plan under Stalin, we must now individually inspect every facet that this program has touched. Every factory, every processing center, every railway will be gone over by the unwavering groups of our inspectors to ensure it meets our standards."
+ SOV_recalibration_of_quotas:0 "Recalibration of Quotas"
+ SOV_recalibration_of_quotas_desc:0 "It is clear to the Trotskyite regime that Stalin preferred to set unrealistic quotas, thus hampering both the quality and accuracy of reports given not just by factories but every facet that the Five Year Plan has touched. By lowering quotas to more realistic and obtainable levels, we will not only be given more accurate reports from the factories but we will save lives also."
+ SOV_localized_quality_control:0 "Localized Quality Control"
+ SOV_localized_quality_control_desc:0 "Under Stalins tyrannical regime, quality of materials, equipment and weapons could range from abysmal to barely effective at best. By dealing with each factory individually on a semi-annual basis and establishing standardized quality control across the entire nation, we can ensure that production is consistent in nature."
+ SOV_status_of_labour_unions:0 "Status of the Labour Unions"
+ SOV_status_of_labour_unions_desc:0 "The failure of Stalin to utilize the power of the working class through Labour Unions can be clearly seen by any observer. We must transform this class from victims of the state to a powerhouse which helps the collective good of our nation."
+ SOV_enshrine_labour_unions:0 "Enshrine the Labour Unions"
+ SOV_enshrine_labour_unions_desc:0 "We will paint a glorious picture of the working class for all to see. Trade and Labour Unions are an asset to the nation, and should not be victim to poor treatment by the state. Rather, they should be enshrined, loved and nutured by the state for their efforts in contributing to the Permenant Revolution!"
+ SOV_nationalization_of_labour_unions:0 "Nationalization of the Labour Unions"
+ SOV_nationalization_of_labour_unions_desc:0 "Having given the Labour Unions a true place within our Socialist Utopia, it is time to fully integrate them into the state apparatus. They will be collectivized and run by the state for the greater good of the Soviet Union!"
+ #Trotsky Tree (Ideas)
+ SOV_internal_chaos:0 "Internal Chaos"
+ SOV_nationwide_inspections_1:0 "Nationwide Inspections"
+ SOV_nationwide_inspections_2:0 "Nationwide Inspections"
+ SOV_nationwide_inspections_3:0 "Nationwide Inspections"
+ SOV_nationwide_inspections_4:0 "Nationwide Inspections"
  SOV_finish_the_five_year_plan:0 "Continue The Five Year Plan"
  #
  SOV_siberian_railnetworks:0 "Improve Siberian Railnetworks"

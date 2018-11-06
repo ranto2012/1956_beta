@@ -2685,7 +2685,7 @@ focus = {
 		}
 	}
 	focus = {
-		id = SOV_solidify_interal_control
+		id = SOV_solidify_internal_control
 		icon = GFX_goal_support_fourth_int
 		prerequisite = { focus = SOV_trotskyite_victory }
 		x = 23
@@ -2722,7 +2722,7 @@ focus = {
 		id = SOV_industrial_strategy
 		icon = GFX_goal_support_fourth_int
 		prerequisite = { focus = SOV_initial_reforms }
-		prerequisite = { focus = SOV_solidify_interal_control }
+		prerequisite = { focus = SOV_solidify_internal_control }
 		x = 24
 		y = 2
 		relative_position_id = SOV_improve_railway
