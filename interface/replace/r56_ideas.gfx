@@ -3778,6 +3778,28 @@ spriteType = {
 		name = "GFX_idea_SOV_revolutionized_industry"
 		texturefile = "gfx/interface/ideas/SOV_revolutionized_industry.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_generic_slowdown"
+		texturefile = "gfx/interface/ideas/idea_generic_slowdown.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_sickness_1"
+		texturefile = "gfx/interface/ideas/idea_generic_sickness_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_sickness_2"
+		texturefile = "gfx/interface/ideas/idea_generic_sickness_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_sickness_3"
+		texturefile = "gfx/interface/ideas/idea_generic_sickness_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_bad_book"
+		texturefile = "gfx/interface/ideas/idea_generic_bad_book.dds"
+	}
+	
+
 ###------> TIB <><> <><> <><> <><> <><>	
 	### TIBET	
 	

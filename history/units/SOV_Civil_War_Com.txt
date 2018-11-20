@@ -1,0 +1,473 @@
+﻿division_template = {
+	name = "otsloyka"
+	is_locked = yes
+	division_names_group = SOV_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+}
+
+units = {	
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 01"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 02"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 03"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 04"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 05"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 06"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 07"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 08"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 09"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 10"
+		location = 6380
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 19"
+		location = 12320
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 18"
+		location = 7661
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 17"
+		location = 1599
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 11"
+		location = 3653
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 12"
+		location = 3653
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 14"
+		location = 3653
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 15"
+		location = 3653
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Otsloyka 16"
+		location = 3653
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Otsloyka 20"
+		location = 3653
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Otsloyka 21"
+		location = 9461
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 22"
+		location = 9461
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 23"
+		location = 9461
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Otsloyka 24"
+		location = 6474
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Otsloyka 25"
+		location = 11405
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Otsloyka 26"
+		location = 11437
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 27"
+		location = 11437
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 28"
+		location = 11437
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 29"
+		location = 11561
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 30"
+		location = 3578
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 00"
+		location = 525
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 00"
+		location = 525
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 00"
+		location = 525
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Otsloyka 00"
+		location = 11370
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 00"
+		location = 11370
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 00"
+		location = 11370
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Otsloyka 00"
+		location = 3151
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 3151
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 3151
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 3151
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 3151
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 3151
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 3151
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 3338
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 3140
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 11225
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 11225
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 9292
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 9292
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 1459
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+
+		division = {
+		name = "Otsloyka 00"
+		location = 1591
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 4797
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 957
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 957
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 957
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 957
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+		division = {
+		name = "Otsloyka 00"
+		location = 957
+		division_template = "otsloyka"		
+		start_equipment_factor = 0.9
+	}
+	
+	
+}

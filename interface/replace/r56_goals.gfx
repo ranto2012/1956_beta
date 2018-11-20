@@ -2023,5 +2023,29 @@ spriteTypes = {
 		name = "GFX_goal_SOV_industrial_cities"
 		texturefile = "gfx/interface/goals/goal_SOV_industrial_cities.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_generic_workers_culture"
+		texturefile = "gfx/interface/goals/goal_generic_workers_culture.dds"
+	}
+	SpriteType = {
+		name = "GFX_rt56_goal_postive_heroism"
+		texturefile = "gfx/interface/goals/rt56_goal_postive_heroism.dds"
+	}
+	SpriteType = {
+		name = "GFX_rt56_goal_SOV_women_in_aviation"
+		texturefile = "gfx/interface/goals/rt56_goal_SOV_women_in_aviation.dds"
+	}
+	SpriteType = {
+		name = "GFX_rt56_goal_SOV_aviation_cult"
+		texturefile = "gfx/interface/goals/rt56_goal_SOV_aviation_cult.dds"
+	}
+	SpriteType = {
+		name = "GFX_rt56_goal_SOV_counter_coup"
+		texturefile = "gfx/interface/goals/rt56_goal_SOV_counter_coup.dds"
+	}
+	SpriteType = {
+		name = "GFX_rt56_goal_SOV_crush_stalin"
+		texturefile = "gfx/interface/goals/rt56_goal_SOV_crush_stalin.dds"
+	}
 }
 #####---------------------------------------------------------------------> End

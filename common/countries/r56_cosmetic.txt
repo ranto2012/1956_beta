@@ -38,3 +38,7 @@ DNZ = {
 	color = { 178 130 130 }
 	color_ui = rgb { 178 130 130 }
 }
+SOV3 = {
+	color = { 158 132 131 }
+	color_ui = rgb { 158 132 131 }
+}

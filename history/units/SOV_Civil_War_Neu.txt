@@ -1,0 +1,423 @@
+﻿division_template = {
+	name = "militsiya"
+	division_names_group = SOV_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+}
+
+
+units = {	
+	division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3529
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3686
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3686
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3686
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3686
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3686
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 3686
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "militsiya"
+		location = 9417
+		division_template = "militsiya"		
+		start_equipment_factor = 0.5
+	}
+			division = {
+		name = "militsiya"
+		location = 9417
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+			division = {
+		name = "militsiya"
+		location = 9417
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+			division = {
+		name = "militsiya"
+		location = 9417
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+			division = {
+		name = "militsiya"
+		location = 3672
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+			division = {
+		name = "militsiya"
+		location = 3672
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+			division = {
+		name = "militsiya"
+		location = 9753
+		division_template = "militsiya"		
+		start_equipment_factor = 0.6
+	}
+			division = {
+		name = "militsiya"
+		location = 9753
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+			division = {
+		name = "militsiya"
+		location = 3734
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+			division = {
+		name = "militsiya"
+		location = 3734
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+			division = {
+		name = "militsiya"
+		location = 11159
+		division_template = "militsiya"		
+		start_equipment_factor = 0.9
+	}
+			division = {
+		name = "militsiya"
+		location = 11159
+		division_template = "militsiya"		
+		start_equipment_factor = 0.9
+	}
+			division = {
+		name = "militsiya"
+		location = 11159
+		division_template = "militsiya"		
+		start_equipment_factor = 0.9
+	}
+			division = {
+		name = "militsiya"
+		location = 11159
+		division_template = "militsiya"		
+		start_equipment_factor = 0.9
+	}
+			division = {
+		name = "militsiya"
+		location = 11159
+		division_template = "militsiya"		
+		start_equipment_factor = 0.9
+	}
+			division = {
+		name = "militsiya"
+		location = 11159
+		division_template = "militsiya"		
+		start_equipment_factor = 0.9
+	}
+			division = {
+		name = "militsiya"
+		location = 11159
+		division_template = "militsiya"		
+		start_equipment_factor = 0.9
+	}
+			division = {
+		name = "militsiya"
+		location = 3134
+		division_template = "militsiya"		
+		start_equipment_factor = 0.2
+	}
+			division = {
+		name = "militsiya"
+		location = 4878
+		division_template = "militsiya"		
+		start_equipment_factor = 0.1
+	}
+			division = {
+		name = "militsiya"
+		location = 10641
+		division_template = "militsiya"		
+		start_equipment_factor = 0.75
+	}
+				division = {
+		name = "militsiya"
+		location = 10641
+		division_template = "militsiya"		
+		start_equipment_factor = 0.75
+	}
+			division = {
+		name = "militsiya"
+		location = 10641
+		division_template = "militsiya"		
+		start_equipment_factor = 0.7
+	}
+			division = {
+		name = "militsiya"
+		location = 10641
+		division_template = "militsiya"		
+		start_equipment_factor = 0.75
+	}
+			division = {
+		name = "militsiya"
+		location = 10641
+		division_template = "militsiya"		
+		start_equipment_factor = 0.75
+	}
+			division = {
+		name = "militsiya"
+		location = 10641
+		division_template = "militsiya"		
+		start_equipment_factor = 0.75
+	}
+			division = {
+		name = "militsiya"
+		location = 10641
+		division_template = "militsiya"		
+		start_equipment_factor = 0.05
+	}
+			division = {
+		name = "militsiya"
+		location = 464
+		division_template = "militsiya"		
+		start_equipment_factor = 0.15
+	}
+					division = {
+		name = "militsiya"
+		location = 464
+		division_template = "militsiya"		
+		start_equipment_factor = 0.11
+	}
+				division = {
+		name = "militsiya"
+		location = 464
+		division_template = "militsiya"		
+		start_equipment_factor = 0.15
+	}
+			division = {
+		name = "militsiya"
+		location = 464
+		division_template = "militsiya"		
+		start_equipment_factor = 0.15
+	}
+			division = {
+		name = "militsiya"
+		location = 464
+		division_template = "militsiya"		
+		start_equipment_factor = 0.15
+	}
+			division = {
+		name = "militsiya"
+		location = 464
+		division_template = "militsiya"		
+		start_equipment_factor = 0.15
+	}
+			division = {
+		name = "militsiya"
+		location = 464
+		division_template = "militsiya"		
+		start_equipment_factor = 0.15
+	}
+
+}

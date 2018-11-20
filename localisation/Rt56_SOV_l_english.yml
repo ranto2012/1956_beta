@@ -28,13 +28,6 @@
  SOV_enshrine_labour_unions_desc:0 "We will paint a glorious picture of the working class for all to see. Trade and Labour Unions are an asset to the nation, and should not be victim to poor treatment by the state. Rather, they should be enshrined, loved and nutured by the state for their efforts in contributing to the Permenant Revolution!"
  SOV_nationalization_of_labour_unions:0 "Nationalization of the Labour Unions"
  SOV_nationalization_of_labour_unions_desc:0 "Having given the Labour Unions a true place within our Socialist Utopia, it is time to fully integrate them into the state apparatus. They will be collectivized and run by the state for the greater good of the Soviet Union!"
- #Trotsky Tree (Ideas)
- SOV_internal_chaos:0 "Internal Chaos"
- SOV_nationwide_inspections_1:0 "Nationwide Inspections"
- SOV_nationwide_inspections_2:0 "Nationwide Inspections"
- SOV_nationwide_inspections_3:0 "Nationwide Inspections"
- SOV_nationwide_inspections_4:0 "Nationwide Inspections"
- SOV_finish_the_five_year_plan:0 "Continue The Five Year Plan"
  #
  SOV_siberian_railnetworks:0 "Improve Siberian Railnetworks"
  #
@@ -83,6 +76,28 @@
  SOV_move_capital_to_sverdlovsk:0 "Move Capital to Sverdlovsk"
  #
  SOV_bt7_development:0 "BT-7 Development"
+ #
+ SOV_improve_our_naval_doctrine:0 "Improve Our Naval Doctrine"
+ #
+ SOV_socialism_in_one_country:0 "Socialism In One Country"
+ #
+ SOV_into_the_plateau:0 "Into the Plateau"
+ #
+ SOV_world_revolution:0 "World Revolution"
+ #
+ SOV_state_of_perpetual_warfare:0 "State of Perpetual Warfare"
+ #
+ SOV_a_gun_in_every_hand:0 "A Gun In Every Hand"
+ #
+ SOV_workers_of_the_world_unite:0 "Workers of the World Unite"
+ #
+ SOV_strike_the_gaint:0 "Strike the Gaint"
+ #
+ SOV_form_a_fifth_column:0 "Form A Fifth Column"
+ #
+ SOV_counter_coup:0 "Counter Coup"
+ 
+
  #Ideas
 
  SOV_social_welfare_focus:0 "Social Welfare"
@@ -120,7 +135,91 @@
  SOV_poorly_educated_population:0 "Poorly Educated Population"
  #
  progress_cult_focus_2:0 "Progress Cult"
+ #
+ SOV_transpolar_flights_idea:0 "Ongoing Transpolar Flights"
+ #
+ SOV_socialism_in_one_country_idea:0 "Socialism In One Country"
+ #
+ SOV_world_revolution_idea:0 "World Revolution"
+ #
+ SOV_state_of_perpetual_warfare_idea:0 "State of Perpetual Warfare"
+ #
+ SOV_a_gun_in_every_hand_idea:0 "A Gun In Every Hand"
+ #
+ officers_purged_civil_war:0 "Opposition Officers Purged"
+ officers_purged_civil_war_desc:0 "We've purge our ranks of officers we've suspected of having sympathies with the opposing side of this civil war"
+
+ #Trotsky Tree (Ideas)
+ SOV_internal_chaos:0 "Internal Chaos"
+ #
+ SOV_nationwide_inspections_1:0 "Nationwide Inspections"
+ #
+ SOV_nationwide_inspections_2:0 "Nationwide Inspections"
+ #
+ SOV_nationwide_inspections_3:0 "Nationwide Inspections"
+ #
+ SOV_nationwide_inspections_4:0 "Nationwide Inspections"
+ #
+ SOV_finish_the_five_year_plan:0 "Continue The Five Year Plan"
+ #
+ SOV_finish_the_five_year_plan:0 "Continue The Five Year Plan"
+ #Events
+
+ r56.soviet.1.t:0 "Gosplan Industrial Report For The Year 1935"
+ r56.soviet.1.d:0 "Gosplan is happy to report to the Central Committee that the current five year plan is still currently ahead of schedule! Last year we’ve made huge strides in our Steel Production. Suppressing many other Countries in production. We’ve also increased our Oil and Coal production over last years totals.\nGosplan is revolutionizing our great nation from a rural peasantry, to a industrial powerhouse rivaling those Capitalist bastards in the west! Though with that said, Gosplan has a question for the Central Committee. Should we still heavily focus on production goals or switch some resources to expanding civilian industries?"
+ r56.soviet.1.a:0 "Keep Hamming On Production Goals"
+ r56.soviet.1.b:0 "Refocus on Civilian Industry Expansion"
+ r56.soviet.2.t:0 "Railway Slowdown"
+ r56.soviet.2.d:0 "Gosplan is reporting that railway slowdowns are preventing production quotas, and deliveries from being filled in a timely manner. Leading to a slowdown in production across the broad. They say that the current railway system can’t keep up with the current size of our industry, and the tonnage needed to be shipped through it."
+ r56.soviet.2.a:0 "Excuses"
+ r56.soviet.3.t:0 "Further Railway Slowdowns"
+ r56.soviet.3.d:0 "Gosplan is reporting that railway slowdowns are still preventing production quotas, and deliveries from being filled in a timely manner. Leading to a slowdown in production across the broad. The current railway system can’t keep up with the current size of our industry, and the tonnage needed to be shipped through it. Gosplan recommended improving it as soon as possible."
+ r56.soviet.3.a:0 "How hard is it to make the trains run on time?"
+ r56.soviet.4.t:0 "More Railway Slowdowns"
+ r56.soviet.4.d:0 "Gosplan is reporting that railway slowdowns are still preventing production quotas, and deliveries from being filled in a timely manner. Leading to a slowdown in production across the broad. Also that these slowdowns are only getting worse. The current railway system can’t keep up with the current size of our industry, and the tonnage needed to be shipped through it. Gosplan recommended improving it as soon as possible."
+ r56.soviet.4.a:0 "This is Unacceptable"
+ r56.soviet.5.t:0 "Additional Railway Slowdowns"
+ r56.soviet.5.d:0 "Gosplan is reporting that railway slowdowns are still preventing production quotas, and deliveries from being filled in a timely manner. Leading to a slowdown in production across the broad. Also that these slowdowns are only getting worse. The current railway system can’t keep up with the current size of our industry, and the tonnage needed to be shipped through it. Gospaln recommended improving it as soon as possible, again. "
+ r56.soviet.5.a:0 "This is the same report as last time. You just changed the date."
+ r56.soviet.6.t:0 "Railway Slowdowns, Again"
+ r56.soviet.6.d:0 "For the fifth time Gosplan is reporting that railway slowdowns are still preventing production quotas, and deliveries from being filled in a timely manner. Leading to a slowdown in production across the broad. Also that these slowdowns are only getting worse. The current railway system can’t keep up with the current size of our industry, and the tonnage needed to be shipped though it. Gospaln recommended improving it as soon as possible, again."
+ r56.soviet.6.a:0 "That's it! Someone from Gosplan is getting shoot!"
+ r56.soviet.7.t:0 "Railway Slows Production"
+ r56.soviet.7.d:0 "For the sixith time Gosplan is reporting that railway slowdowns are still preventing production quotas, and deliveries from being filled in a timely manner. Leading to a slowdown in production across the broad. Also that these slowdowns are only getting worse. The current railway system can’t keep up with the current size of our industry, and the tonnage needed to be shipped though it. Gospaln recommended improving it as soon as possible, again."
+ r56.soviet.7.a:0 "Stop bugging me about Railways!"
+ r56.soviet.8.t:0 "Railway Cripples Production"
+ r56.soviet.8.d:0 "For the seventh time Gosplan is reporting that railway slowdowns are still preventing production quotas, and deliveries from being filled in a timely manner. Leading to a slowdown in production across the broad. Also that these slowdowns are only getting worse. The current railway system can’t keep up with the current size of our industry, and the tonnage needed to be shipped though it. Gospaln recommended improving it as soon as possible, again."
+ r56.soviet.8.a:0 "Im starting to think this is a issue"
+ r56.soviet.9.t:0 "Disease Outbreaks Reported"
+ r56.soviet.18.t:0 "Yezhov is a forming coalition to overthrow Stalin" 
+ r56.soviet.19.t:0 "NKVD agents have made contact with Trotsky"
+ r56.soviet.20.t:0 "Andrey Vlasov offers some additional help"
+ r56.soviet.21.t:0 "Contact Politcal Agents?"
+ r56.soviet.22.t:0 "Contact Exiled Generals?"
+ r56.soviet.23.t:0 "Seek Support from Exiles in Poland?"
+ r56.soviet.24.t:0 "Trotsky has Returned"
+
  #Tooltips
 
  SOV_invest_in_enigneering_tooltip:0 "§WOther Industrial Focuses Will Now Gain §YIndustrial Push §WNational Spirit, which grants\n(Construction Speed: §G+5.00%§W) for §Y30 §Wdays.\n"
  SOV_move_capital_to_sverdlovsk_effect:0 "§YSverdlovsk§W:\n  Becomes capital.\n  Adds §Y12 Land Forts§! in and around Sverdlovsk.\n§W  Add §G4§W Building Slots.\n"
+
+ #Flags 
+
+ SOV_fixed_choo_choo:0 "We've §YImproved§! our Railnetwork"
+ trotsky_eturn_1:0 "Trotsky Has Returned"
+ SOV_soviet.48_notrotsky:0 "Trotsky wasn't invite back to fight the Civil War"
+ counter_coup_purge:0 " Purged in a Counter Coup"
+
+ #tags
+
+ SOV2_communism_DEF:0 "Russian SFSR"
+ SOV2_communism_ADF:0 "Russian SFSR"
+ SOV2_communism:0 "Russian SFSR"
+ SOV3_neutrality:0 "Soviet Union"
+ SOV3_neutrality_DEF:0 "Soviet Union"
+ SOV3_neutrality_ADJ:0 "Soviet Union"
+
+ #adviors
+
+ konstantin_nechaev:0 "Konstantin Nechaev"

@@ -128,7 +128,7 @@ ideas = {
 				}
 			}
 
-			picture = generic_manpower_bonus
+			picture = generic_slowdown
 			
 			modifier = {
 				industrial_capacity_factory = -0.05
@@ -164,7 +164,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = generic_manpower_bonus
+			picture = generic_sickness_1
 			
 			modifier = {
 				#
@@ -182,7 +182,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = generic_manpower_bonus
+			picture = generic_sickness_2
 			
 			modifier = {
 				industrial_capacity_factory = -0.1
@@ -202,7 +202,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = generic_manpower_bonus
+			picture = generic_sickness_3
 			
 			modifier = {
 				industrial_capacity_factory = -0.25
@@ -243,7 +243,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = generic_manpower_bonus
+			picture = generic_bad_book
 
 
 			modifier = {
@@ -277,6 +277,25 @@ ideas = {
 			modifier = {
 				#
 			}
+		}
+		SOV_transpolar_flights_idea = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = generic_manpower_bonus
+			
+			research_bonus = {
+				air_doctrine = 0.1
+			}
+
 		}
 		SOV_urbanization_focus = {
 		
@@ -321,6 +340,198 @@ ideas = {
 				stability_weekly = -0.001
 			}
 		}
+		SOV_socialism_in_one_country_idea = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+
+			modifier = {
+				political_power_factor = 0.15
+				justify_war_goal_time = 0.15
+			}
+		}
+		SOV_world_revolution_idea = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+
+			modifier = {
+				subversive_activites_upkeep = -0.25
+				guarantee_cost = -0.25
+			}
+		}
+		SOV_state_of_perpetual_warfare_idea = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+
+			modifier = {
+				justify_war_goal_time = -0.80
+				enemy_justify_war_goal_time = -0.80
+			}
+		}
+		SOV_a_gun_in_every_hand_idea = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+
+			equipment_bonus = {
+
+				infantry_equipment = {
+					build_cost_ic = -0.25 instant = yes
+					reliability = -0.25 instant = yes
+					}
+			}
+			
+
+			modifier = {
+				training_time_army_factor = -0.25
+				experience_gain_army_factor = -0.25
+			}
+		}
+		SOV_workers_of_the_world_unite_idea = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = generic_manpower_bonus
+			
+
+			modifier = {
+				conscription = 0.05
+				non_core_manpower = 0.05
+			}
+		}
+		SOV_internal_chaos = {
+
+			picture = generic_disjointed_gov
+
+			allowed = {
+				always = no # Added via focus
+			}
+			
+			modifier = {
+				stability_factor = -0.4
+				political_power_factor = -0.40
+				mobilization_speed = -0.3
+				army_morale_factor = -0.25
+				high_command_cost_factor = -0.20
+				political_advisor_cost_factor = -0.20
+			}
+		}
+		
+		SOV_nationwide_inspections_1
+		
+			picture = generic_disjointed_gov
+
+			allowed = {
+				always = no # Added via focus
+			}
+			
+			modifier = {
+			industrial_capacity_factory = -0.30
+			production_factory_max_efficiency_factor = -0.30
+			consumer_goods_factor = 0.3	
+			}
+		}
+			SOV_nationwide_inspections_2
+		
+			picture = generic_disjointed_gov
+
+			allowed = {
+				always = no # Added via focus
+			}
+			
+			modifier = {
+			industrial_capacity_factory = -0.20
+			production_factory_max_efficiency_factor = -0.20
+			consumer_goods_factor = 0.2	
+			}
+		}
+			SOV_nationwide_inspections_3
+		
+			picture = generic_disjointed_gov
+
+			allowed = {
+				always = no # Added via focus
+			}
+			
+			modifier = {
+			industrial_capacity_factory = -0.10
+			production_factory_max_efficiency_factor = -0.10
+			consumer_goods_factor = 0.1	
+			}
+		}
+			SOV_nationwide_inspections_4
+		
+			picture = generic_disjointed_gov
+
+			allowed = {
+				always = no # Added via focus
+			}
+			
+			modifier = {
+			industrial_capacity_factory = 0.05
+			production_factory_max_efficiency_factor = 0.20
+			consumer_goods_factor = -0.1
+			}
+		}
 		militarized_schools = {
 		
 			removal_cost = -1
@@ -338,7 +549,8 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				conscription = 0.005
+				conscription = 0.002
+				army_leader_start_planning_level = 1
 			}
 		}
 	
@@ -836,6 +1048,32 @@ ideas = {
 				training_time_factor = 0.05
 			}
 		}
+		officers_purged_civil_war = {
+			removal_cost = -1
+
+			picture = officers_purged
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			research_bonus = {
+				land_doctrine = -0.25
+				naval_doctrine = -0.25
+				air_doctrine = -0.25
+			}
+
+			modifier = {
+				army_org_factor = -0.10
+				send_volunteer_factor = -0.26
+				industrial_capacity_factory = -0.02
+				training_time_factor = 0.05
+			}
+		}
 
 		SOV_great_patriotic_war = {
 			removal_cost = -1
@@ -1009,81 +1247,7 @@ ideas = {
 			}
 
 		}
-		
-		SOV_internal_chaos = {
 
-			picture = generic_disjointed_gov
-
-			allowed = {
-				always = no # Added via focus
-			}
-			
-			modifier = {
-				stability_factor = -0.4
-				political_power_factor = -0.40
-				mobilization_speed = -0.3
-				army_morale_factor = -0.25
-				high_command_cost_factor = -0.20
-				political_advisor_cost_factor = -0.20
-			}
-		}
-		
-		SOV_nationwide_inspections_1
-		
-			picture = generic_disjointed_gov
-
-			allowed = {
-				always = no # Added via focus
-			}
-			
-			modifier = {
-			industrial_capacity_factory = -0.30
-			production_factory_max_efficiency_factor = -0.30
-			consumer_goods_factor = 0.3	
-			}
-		}
-			SOV_nationwide_inspections_2
-		
-			picture = generic_disjointed_gov
-
-			allowed = {
-				always = no # Added via focus
-			}
-			
-			modifier = {
-			industrial_capacity_factory = -0.20
-			production_factory_max_efficiency_factor = -0.20
-			consumer_goods_factor = 0.2	
-			}
-		}
-			SOV_nationwide_inspections_3
-		
-			picture = generic_disjointed_gov
-
-			allowed = {
-				always = no # Added via focus
-			}
-			
-			modifier = {
-			industrial_capacity_factory = -0.10
-			production_factory_max_efficiency_factor = -0.10
-			consumer_goods_factor = 0.1	
-			}
-		}
-			SOV_nationwide_inspections_4
-		
-			picture = generic_disjointed_gov
-
-			allowed = {
-				always = no # Added via focus
-			}
-			
-			modifier = {
-			industrial_capacity_factory = 0.05
-			production_factory_max_efficiency_factor = 0.20
-			consumer_goods_factor = -0.1
-			}
-		}
 	}
 	political_advisor = {
 		mikhail_kalinin = {
@@ -1095,7 +1259,7 @@ ideas = {
 			available = 
 			{
 				NOT = { has_country_flag = purged_kalinin }
-				NOT = { has_country_flag = counter_purge }
+				NOT = { has_country_flag = counter_coup_purge } #We don't purge are friends... right?
 			}
 			
 
@@ -1130,10 +1294,12 @@ ideas = {
 			picture = generic_political_advisor_europe_1
 			
 			allowed = {
-				original_tag = SOV
+				tag = SOV
 			}
+
+			available = { NOT = { has_country_flag = counter_coup_purge } }
 			
-			traits = { smooth_talking_charmer }
+			traits = { silent_workhorse smooth_talking_charmer }
 		}
 
 		SOV_nikolai_voznesensky = {
@@ -1157,7 +1323,7 @@ ideas = {
 
 			available = 
 			{
-				NOT = { has_country_flag = counter_purge }
+				NOT = { has_country_flag = counter_coup_purge }
 				NOT = { has_country_flag = purge_2_group_a }
 			}
 			
@@ -1180,7 +1346,7 @@ ideas = {
 			
 
 			
-			traits = { communist_revolutionary }
+			traits = { backroom_backstabber communist_revolutionary }
 	
 			do_effect = {
 				NOT = {
@@ -1200,7 +1366,7 @@ ideas = {
 				original_tag = "SOV"
 			}
 			
-
+			available = { has_completed_focus = SOV_counter_coup }
 			
 			traits = { democratic_reformer }
 
@@ -1221,10 +1387,9 @@ ideas = {
 			allowed = {
 				original_tag = "SOV"
 			}
-			available = 
-			{
-				NOT = { has_country_flag = counter_purge }
-			}
+
+			available = { has_completed_focus = SOV_counter_coup }	
+			#Can't be in a counter purge... 50% of the time he wouldn't be in the country....
 			
 
 			
@@ -1774,7 +1939,22 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
-		}	
+		}
+
+		konstantin_nechaev = {	
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			available = { has_completed_focus = SOV_counter_coup }
+
+			traits = { army_chief_morale_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 		
 	tank_manufacturer = {
