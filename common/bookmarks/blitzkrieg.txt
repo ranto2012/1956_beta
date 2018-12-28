@@ -194,6 +194,19 @@ bookmarks = {
 			}
 		}
 		
+		"GRE"={
+			minor = yes
+			history = "GRE_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				GRE_reinforce_4th_of_august_regime
+                GRE_surprise_attack_italy
+				GRE_megali_idea
+			}
+		}
+		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
