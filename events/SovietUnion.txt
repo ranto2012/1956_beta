@@ -2480,7 +2480,7 @@ country_event = {
 			add_to_faction = CZE
 			if = {
 				limit = {
-					POL = { exists = YES}
+					POL = { exists = no }
 				}
 				POL = {
 					add_to_faction = POL
