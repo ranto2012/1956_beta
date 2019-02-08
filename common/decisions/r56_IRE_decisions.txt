@@ -9,7 +9,11 @@ political_actions = {
 		allowed = {
 			original_tag = IRE
 		}
+
+		cost = 50
 	
+		days_remove = 60
+
 		available = {
 			OR = {
 				threat > 0.15
@@ -26,13 +30,16 @@ political_actions = {
 		}
 		
 		remove_effect = {
-
-		}		
-		complete_effect = {
 			add_political_power = 100
 			army_experience = 20
-			set_country_flag = IRE_emergency								
+			set_country_flag = IRE_emergency	
+		}		
+		complete_effect = {
+							
 		}
+		ai_will_do = {
+			factor = 100
+		}		
 	}
 		
 }
