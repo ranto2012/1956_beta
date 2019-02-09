@@ -1904,32 +1904,34 @@ country_event = {
 			if = {
 				limit = {
 					is_in_faction_with = BEL
-					COG = {  
-						is_puppet_of = BEL
-					}
+
 				}
 				COG = {  
 					is_puppet_of = BEL
 					NOT = {controls_state = 295	}
 				}
-			}
-			if = {
-				limit = {
-					is_in_faction_with = BEL
-					BEL = {
-						owns_state = 295
-						NOT = {controls_state = 295	}				  
-					}					
+				else = {
+					if = {
+						limit = {
+							is_in_faction_with = BEL					
+						}
+						BEL = {
+							owns_state = 295
+							NOT = {controls_state = 295	}				  
+						}						
+					}
 				}
+				else = {
+					if = {
+						limit = {
+							is_in_faction_with = COG					
+						}
+						COG = {
+							NOT = {controls_state = 295	}
+						}						
+					}
+				}				
 			}			
-			if = {
-				limit = {
-					is_in_faction_with = COG
-					COG = {
-						NOT = {controls_state = 295	}
-					}					
-				}
-			}					
 		}
 	}	
 	mean_time_to_happen = {
