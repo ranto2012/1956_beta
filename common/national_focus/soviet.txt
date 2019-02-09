@@ -2272,6 +2272,12 @@ focus = {
 				}
 			 remove_ideas = SOV_proliferation_of_disease
 			}
+			if = {	
+				limit = {
+					has_idea = SOV_widespread_outbreaks
+				}
+			 remove_ideas = SOV_widespread_outbreaks
+			}
 			add_tech_bonus = {
 				name = hospital_bonus
 				bonus = 0.25
