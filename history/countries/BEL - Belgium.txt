@@ -334,7 +334,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Victor Van Strydonck de Burkel"
-	picture = "Portrait_Belgium_Victor_van_Strydonck_de_Burkel.tga"
+	picture = "Portrait_Belgium_Victor_van_Strydonck_de_Burkel.dds"
 	traits = { flemish career_officer cavalry_leader }
 	skill = 2
 	attack_skill = 2
