@@ -870,7 +870,19 @@ leader_traits = {
 			}
 		}	
 	}
-	
+###------> DNZ <><> <><> <><> <><> <><>	
+	likes_germany = {
+		random = no
+		ai_strategy = {
+			type = befriend
+			id = "GER"			
+			value = 200
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
 ###------> ETH <><> <><> <><> <><> <><>
 	
 	ETH_solomonic_dynasty = {

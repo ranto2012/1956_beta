@@ -127,7 +127,7 @@ create_country_leader = {
 	expire = "1939.11.23"
 	ideology = nazism
 	traits = {
-		#
+		likes_germany
 	}
 }
 
