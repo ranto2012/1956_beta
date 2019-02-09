@@ -313,10 +313,10 @@ create_field_marshal = {
 	name = "Władysław Bortnowski"
 	picture = "r56_portrait_POL_Wladyslaw_Bortnowski.dds"
 	traits = { career_officer politically_connected offensive_doctrine }
-	skill = 1
+	skill = 2
 	attack_skill = 2
 	defense_skill = 1
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 2
 }
 
@@ -324,10 +324,10 @@ create_field_marshal = {
 	name = "Juliusz Rómmel"
 	picture = "r56_portrait_POL_Juliusz_Rommel.dds"
 	traits = { cavalry_officer inflexible_strategist war_hero defensive_doctrine }
-	skill = 1
+	skill = 2
 	attack_skill = 1
 	defense_skill = 3
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
@@ -346,7 +346,7 @@ create_field_marshal = {
 	name = "Antoni Szylling"
 	picture = "r56_portrait_POL_Antoni_Szylling.dds"
 	traits = { brilliant_strategist organisational_leader thorough_planner }
-	skill = 3
+	skill = 4
 	attack_skill = 3
 	defense_skill = 4
 	planning_skill = 4
@@ -359,7 +359,7 @@ create_corps_commander = {
 	traits = { career_officer trickster swamp_fox }
 	skill = 4
 	attack_skill = 3
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 3
 }
@@ -371,7 +371,7 @@ create_corps_commander = {
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 3
 }
 
@@ -381,9 +381,9 @@ create_corps_commander = {
 	traits = { cavalry_officer cavalry_leader }
 	skill = 3
 	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -394,7 +394,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -415,7 +415,7 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 3
 	logistics_skill = 2
 }
 
@@ -423,11 +423,11 @@ create_corps_commander = {
 	name = "Michał Tokarzewski-Karaszewicz"
 	picture = "r56_portrait_POL_Michal_Tokarzewski_Karaszewicz.dds"
 	traits = { hill_fighter guerilla_fighter }
-	skill = 2
+	skill = 3
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 4
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -435,9 +435,9 @@ create_corps_commander = {
 	picture = "r56_portrait_POL_Walerian_Czuma.dds"
 	traits = { urban_assault_specialist }
 	skill = 2
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 3
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
@@ -457,7 +457,7 @@ create_corps_commander = {
 	picture = "r56_portrait_POL_Franciszek_Wlad.dds"
 	traits = { ambusher }
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
@@ -470,7 +470,7 @@ create_corps_commander = {
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
@@ -505,7 +505,7 @@ create_corps_commander = {
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
