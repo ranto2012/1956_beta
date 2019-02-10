@@ -1005,6 +1005,14 @@ on_actions = {
 ###---> On Startup <><> <><> <><>
 	on_startup = {
 		effect = {
+			#Italian great war tanks of Latvia
+			LAT = {
+				add_equipment_to_stockpile = {
+					type = gw_tank_equipment
+					amount = 20
+					producer = ITA
+				}
+			}
 		
 			85 = {
 				add_building_construction = {
