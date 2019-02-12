@@ -3559,7 +3559,7 @@ focus_tree = {
                 uses = 1
                 category = infantry_weapons
                 category = artillery
-                }
+            }
             add_ideas = tblra_reserve_mobilization
 			set_technology = { bicycle_infantry = 1 }
 			division_template = {
@@ -3596,9 +3596,9 @@ focus_tree = {
                 bonus = 0.50
                 uses = 1
                 category = land_doctrine
-				}
 			}
 		}
+	}
     focus = {
         id = tblra_experimental_weaponry
         icon = GFX_goal_generic_military_sphere
