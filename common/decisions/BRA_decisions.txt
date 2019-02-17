@@ -1221,13 +1221,13 @@ BRA_uiracu = {
 			NOT = { has_decision = bra_inv_arg }
 			NOT = { has_country_flag = bra_inv_arg_flag }
 			country_exists = ARG
-			command_power > 49
+			command_power > 29
 			has_political_power > 49
 		}
 		
 		custom_cost_text = BRA_invasion_cost
 		custom_cost_trigger = {
-			command_power > 49
+			command_power > 29
 			has_political_power > 49
 		}
 
@@ -1267,13 +1267,13 @@ BRA_uiracu = {
 			NOT = { has_decision = bra_inv_bol }
 			NOT = { has_country_flag = bra_inv_bol_flag }
 			country_exists = BOL
-			command_power > 49
+			command_power > 29
 			has_political_power > 49
 		}
 		
 		custom_cost_text = BRA_invasion_cost
 		custom_cost_trigger = {
-			command_power > 49
+			command_power > 29
 			has_political_power > 49
 		}
 
@@ -1313,13 +1313,13 @@ BRA_uiracu = {
 			NOT = { has_decision = bra_inv_par }
 			NOT = { has_country_flag = bra_inv_par_flag }
 			country_exists = PAR
-			command_power > 49
+			command_power > 29
 			has_political_power > 49
 		}
 		
 		custom_cost_text = BRA_invasion_cost
 		custom_cost_trigger = {
-			command_power > 49
+			command_power > 29
 			has_political_power > 49
 		}
 
@@ -1360,13 +1360,13 @@ BRA_uiracu = {
 			has_completed_focus = bra_sem_eixo
 			NOT = { has_decision = bra_inv_urg }
 			NOT = { has_country_flag = bra_inv_urg_flag }
-			command_power > 49
+			command_power > 29
 			has_political_power > 49
 		}
 		
 		custom_cost_text = BRA_invasion_cost
 		custom_cost_trigger = {
-			command_power > 49
+			command_power > 29
 			has_political_power > 49
 		}
 
