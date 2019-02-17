@@ -172,23 +172,28 @@
  LAT_anti_air_artillery_desc:0 "Anti Air Artillery"
  LAT_modern_infantry_desc:0 "Modern Infantry"
  
- LAT_event.1:0 "A Cordial Dinner Between Officers"
+ LAT_event.1.t:0 "A Cordial Dinner Between Officers"
  LAT_event.1.desc:0 "During a meal at the officer's association, the attaché was disposed to discuss about the latest innovation in the field of armament." 
  LAT_event.1.a:0 "Ask him about firearms."
  LAT_event.1.b:0 "Inquire about guns and shells."
  LAT_event.1.c:0 "Inquire about training methods." 
 
- LAT_event.2:0 "Inquiring about doctrines"
+ LAT_event.2.t:0 "Inquiring about doctrines"
  LAT_event.2.desc:0 "How can I help you?" 
  LAT_event.2.a:0 "This is how we organize our army."
  LAT_event.2.b:0 "This is how we organize our navy."
  LAT_event.2.c:0 "This is how we organize our aviation."  
  
- LAT_event.3:0 "The Kegums Power Plant is Complete!"
+ LAT_event.3.t:0 "The Kegums Power Plant is Complete!"
  LAT_event.3.desc:0 "After years of work and investment the dam is finally operationnal. This is a gigantic accomplishment and the proof of Latvian ingenuity" 
  LAT_event.3.a:0 "Huzzah!" 
  
+ LAT_infantry_equipment_0:0 "M-N 1891/30"
+ LAT_infantry_equipment_0_short:0 "M-N 1891/30"
+ LAT_infantry_equipment_1:0 "Pattern 14 Rifle"
+ LAT_infantry_equipment_1_short:0 "Pattern 14" 
  
+ LAT_unify_baltic_countries:0 "Unify Baltic Countries"
 ###TEMPORARY POLITICAL BRANCH###
  LAT_State_Matter:0 "Focus on Internal Matters"
  LAT_State_Matter_desc:0 ""

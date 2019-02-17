@@ -3317,7 +3317,177 @@
 			add_ideas = GEN_Conquer_I
 		}
 	}
-	
+	shared_focus = {
+		id = GEN_conquer_the_baltic
+		icon = GFX_goal_SOV_baltic_aggression
+		prerequisite = { focus = GEN_Conquer }
+		
+		x = -1
+		y = 1
+		relative_position_id = GEN_Conquer
+		
+		allow_branch = {
+			original_tag = LIT
+		}
+
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			is_ai = no
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = LIT
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = EST
+			}
+		}
+	}
+	shared_focus = {
+		id = GEN_expansion_plans
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GEN_Conquer }
+		
+		x = -1
+		y = 1
+		relative_position_id = GEN_Conquer
+		
+		allow_branch = {
+			 OR = {
+			 	#Europe
+			 	original_tag = ROM
+
+			 	#North America (non dlc owners normally)
+			 	original_tag = CAN
+
+			 	#South America
+			 	original_tag = PAR
+			 	original_tag = BOL
+			 	original_tag = PRU
+			 	original_tag = VEN
+			 	original_tag = DOM
+			 	
+			 	#Asia
+			 	original_tag = AFG
+
+			 	#oceania
+			 	original_tag = AST
+			 } 
+		}
+
+		cost = 10
+
+		available_if_capitulated = no
+
+		available = {
+			is_ai = no
+			is_puppet = no
+		}		
+		
+		completion_reward = {
+			#Europe 
+
+			if = {
+				limit = {
+					original_tag = ROM
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = BUL
+				}				
+			}
+
+			#north america
+			if = {
+				limit = {
+					original_tag = CAN
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = USA
+				}				
+
+			}		
+			if = {
+				limit = {
+					original_tag = PAR
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = BOL
+				}				
+
+			}
+			if = {
+				limit = {
+					original_tag = BOL
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = PRU
+				}				
+
+			}			
+			if = {
+				limit = {
+					original_tag = PRU
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = ECU
+				}				
+			}
+			if = {
+				limit = {
+					original_tag = VEN
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = COL
+				}				
+			}									
+			if = {
+				limit = {
+					original_tag = DOM
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = HAI
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = CUB
+				}								
+			}
+			#ASIA
+			if = {
+				limit = {
+					original_tag = AFG
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = PER
+				}								
+			}
+			#OCEANIA
+			if = {
+				limit = {
+					original_tag = AST
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = INS
+				}								
+			}						
+		}
+	}
+		
 	
 	shared_focus = {
 		id = GEN_Intervene

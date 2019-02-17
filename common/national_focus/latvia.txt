@@ -422,23 +422,23 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 12 }
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}				
-				add_extra_state_shared_building_slots = 1
-			}
-			random_owned_controlled_state = {
 				prioritize = { 190 }
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}				
-				add_extra_state_shared_building_slots = 1
-			}			
+				add_extra_state_shared_building_slots = 2
+			}
+		#	random_owned_controlled_state = {  #changed to one state because Riga region was overcrowded
+		#		prioritize = { 12 }
+		#		add_building_construction = {
+		#			type = industrial_complex
+		#			level = 1
+		#			instant_build = yes
+		#		}				
+		#		add_extra_state_shared_building_slots = 1
+		#	}			
 			
 		}
 	}					
@@ -1234,7 +1234,6 @@ focus_tree = {
 		}
 	}
 	
-	
 	focus = {
 		id = LAT_militarism
 		icon = GFX_goal_extensive_conscription_fascism
@@ -1262,8 +1261,7 @@ focus_tree = {
 			}			
 			add_ideas = GEN_militarism_I
 		}
-	}
-	
+	}	
 	
 	focus = {
 		id = LAT_Organise_Youth
@@ -1462,7 +1460,45 @@ focus_tree = {
 			add_ideas = GEN_Conquer_I
 		}
 	}
-	
+	focus = {
+		id = LAT_unify_baltic_countries
+		icon = GFX_goal_SOV_baltic_aggression
+		prerequisite = { focus = LAT_Conquer}
+		
+		x = -1
+		y = 1
+		relative_position_id = LAT_Conquer
+
+		cost = 10
+
+		available_if_capitulated = yes
+
+		available = {
+			r56_script_i_am_sane = yes		
+			OR = {
+				EST = {
+					exists = yes
+					r56_script_target_is_sane = yes
+				}
+
+				LIT = {
+					exists = yes
+					r56_script_target_is_sane = yes					
+				}							
+			}
+		}
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = LIT
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = EST
+			}			
+		}
+	}	
 	
 	focus = {
 		id = LAT_Intervene

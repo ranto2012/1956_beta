@@ -678,7 +678,7 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = LAT_save_ford_vairogs
+				has_completed_focus = LAT_sellier_and_bellot_ammunitions
 
 			}
 
