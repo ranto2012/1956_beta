@@ -703,6 +703,13 @@ spriteTypes = {
 		name = "GFX_cairoC"
 		texturefile = "gfx/event_pictures/Cairo_conference.dds"
 	}
+
+###------> LAT <><> <><> <><> <><> <><>
+	
+	spriteType = {
+		name = "GFX_report_event_LAT_latvian_and_japanese_officers"
+		texturefile = "gfx/event_pictures/report_event_LAT_latvian_japanese_officers.dds"
+	}
 	
 ###------> FIN <><> <><> <><> <><> <><>
 

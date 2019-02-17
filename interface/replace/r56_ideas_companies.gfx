@@ -796,11 +796,11 @@ spriteTypes = {
 ###------> LAT <><> <><> <><> <><> <><>	
 	spriteType = {
 		name = "GFX_idea_vef"
-		texturefile = "gfx/interface/ideas/lat/companies/r56_idea_LAT_company_valsts_elektrotehniska_fabrika.dds"
+		texturefile = "gfx/interface/ideas/lat/companies/r56_idea_LAT_valsts_elektrotehniska_fabrika.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_vef_electronics"
-		texturefile = "gfx/interface/ideas/lat/companies/r56_idea_LAT_company_valsts_elektrotehniska_fabrika.dds"
+		texturefile = "gfx/interface/ideas/lat/companies/r56_idea_LAT_valsts_elektrotehniska_fabrika.dds"
 	}
 
 
