@@ -802,14 +802,14 @@ country = {
 		available_if_capitulated = no
 
 		completion_reward = {
-		create_wargoal = {
+			create_wargoal = {
 				type = annex_everything
 				target = YUG
 			}
-			}
 		}
+	}
 		
-		focus = {
+	focus = {
 		id = alb_bul
 		icon = GFX_focus_RAJ_lions_of_the_great_war
 		available = {
@@ -1023,6 +1023,7 @@ country = {
 			r56_script_i_am_sane = yes
 			country_exists = ALB
 			is_puppet = no
+			is_ai = no
 		}
 		prerequisite = { 
 		focus = alb_yug
