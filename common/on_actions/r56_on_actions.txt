@@ -695,7 +695,29 @@ on_actions = {
 	
 ###---> On Government Change <><> <><> <><>
 	on_government_change = {
-		effect = {			
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						is_subject_of = ENG
+					}
+					OR = {
+						original_tag = CAN
+						original_tag = SAF
+						original_tag = AST
+						original_tag = NZL
+					}
+					OR = {
+						has_government = fascism
+						has_government = communism
+					}
+					NOT = {
+						has_dlc = "Together for Victory"
+					}					
+				}
+				leave_faction = yes
+				news_event = { hours = 5 id = r56_non_dlc_news_event.2 }
+			}			
 			if = {
 				limit = {
 					tag = MAN

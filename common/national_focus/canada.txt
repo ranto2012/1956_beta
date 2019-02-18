@@ -493,7 +493,7 @@ focus_tree = {
 		id = CAN_imperial_oil
 		icon = GFX_goal_generic_oil_refinery
 		prerequisite = { focus = CAN_retool_angus_shops focus = CAN_maritime_colonial_railway }
-		x = 0
+		x = -1
 		y = 4
 		relative_position_id = CAN_rowell_sirois_commission
 
@@ -548,6 +548,85 @@ focus_tree = {
 				}
 			}
 		}
+	}
+	focus = {
+		id = CAN_saguenay_aluminum
+		icon = GFX_focus_generic_aluminum
+		prerequisite = { focus = CAN_retool_angus_shops focus = CAN_maritime_colonial_railway }
+		x = 1
+		y = 4
+		relative_position_id = CAN_rowell_sirois_commission
+		cost = 10
+
+		available_if_capitulated = no
+
+
+		ai_will_do = {
+			factor = 8
+		}
+			
+			
+
+		bypass = {
+
+		}
+		available = {
+			has_tech = excavation2
+			if = {
+				limit = {
+					original_tag = CAN
+					QBC = {  
+						is_puppet_of = CAN  
+					}
+				}
+				466 = {
+					is_controlled_by = QBC
+				}				
+				NOT = {
+					QBC = {
+						focus_progress = {
+							focus = QBC_saguenay_aluminum
+							progress > 0
+						}
+					}
+				}				
+			}
+			if = {
+				limit = {
+					original_tag = CAN
+					NOT = {
+						QBC = {  
+							is_puppet_of = CAN  
+						}					
+					}
+
+				}
+				466 = {
+					is_controlled_by = CAN
+				}				
+				NOT = {
+					QBC = {
+						focus_progress = {
+							focus = QBC_saguenay_aluminum
+							progress > 0
+						}
+					}
+				}				
+			}						
+		}
+
+		bypass = {
+		}
+
+        completion_reward = {
+            466 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+					state = 466
+				}                
+            }
+        }
 	}
 
 

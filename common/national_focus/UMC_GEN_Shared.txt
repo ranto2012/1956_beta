@@ -583,6 +583,120 @@
 			}			
 		}
 	}
+	shared_focus = {
+		id = QBC_saguenay_aluminum
+		icon = GFX_focus_generic_aluminum
+		prerequisite = { focus = GEN_Industrial_Start }
+		relative_position_id = GEN_Industrial_Start
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+
+		ai_will_do = {
+			factor = 2
+		}
+			
+			
+
+		bypass = {
+
+		}
+		available = {
+			has_tech = excavation2
+			if = {
+				limit = {
+					original_tag = CAN
+					QBC = {  
+						is_puppet_of = CAN  
+					}
+				}
+				466 = {
+					is_controlled_by = QBC
+				}				
+				NOT = {
+					QBC = {
+						focus_progress = {
+							focus = QBC_saguenay_aluminum
+							progress > 0
+						}
+					}
+				}				
+			}
+			if = {
+				limit = {
+					original_tag = CAN
+					NOT = {
+						QBC = {  
+							is_puppet_of = CAN  
+						}					
+					}
+
+				}
+				466 = {
+					is_controlled_by = CAN
+				}				
+				NOT = {
+					QBC = {
+						focus_progress = {
+							focus = QBC_saguenay_aluminum
+							progress > 0
+						}
+					}
+				}				
+			}
+			if = {
+				limit = {
+					original_tag = QBC    
+				}
+				
+				466 = {
+					is_controlled_by = QBC
+				}				
+				NOT = {
+					CAN = {
+						OR = {
+							focus_progress = {
+								focus = QBC_saguenay_aluminum
+								progress > 0
+							}
+							focus_progress = {
+								focus = CAN_saguenay_aluminum
+								progress > 0
+							}														
+						}
+					}
+				}				
+			}						
+		}
+
+		allow_branch = {
+			OR = {
+				AND = {
+					original_tag = CAN
+					NOT = {
+						has_dlc = "Together for Victory"
+					}
+				}
+				original_tag = QBC
+			}
+		}
+
+		bypass = {
+		}
+
+        completion_reward = {
+            466 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+					state = 466
+				}                
+            }
+        }
+	}	
 
 	
 	shared_focus = {
@@ -3086,6 +3200,21 @@
 
 		completion_reward = {
 			add_ideas = nationalism
+			if = {
+				limit = {
+					OR = {
+
+						original_tag = MAL
+						original_tag = RAJ
+
+					}
+					NOT = {
+						has_dlc = "Together for Victory"
+					}
+				}
+
+				unlock_decision_tooltip = { decision = r56_commonwealth_decision_declare_independence_from_britain }
+			}
 		}
 	}
 	
@@ -3212,6 +3341,18 @@
 
 		completion_reward = {
 			add_ideas = internationalism
+			if = {
+				limit = {
+					OR = {
+						original_tag = MAL
+						original_tag = RAJ
+					}
+					NOT = {
+						has_dlc = "Together for Victory"
+					}
+				}
+				unlock_decision_tooltip = { decision = r56_commonwealth_decision_declare_independence_from_britain }
+			}			
 		}
 	}	
 	
@@ -3372,12 +3513,17 @@
 			 	original_tag = PRU
 			 	original_tag = VEN
 			 	original_tag = DOM
+			 	original_tag = CUB
 			 	
 			 	#Asia
 			 	original_tag = AFG
+			 	original_tag = NEP
+			 	original_tag = OMA
+			 	original_tag = YEM
 
 			 	#oceania
 			 	original_tag = AST
+			 	original_tag = NZL
 			 } 
 		}
 
@@ -3413,7 +3559,22 @@
 					target = USA
 				}				
 
-			}		
+			}
+			#south america
+			if = {
+				limit = {
+					original_tag = CUB
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = HAI
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = DOM
+				}								
+
+			}			
 			if = {
 				limit = {
 					original_tag = PAR
@@ -3475,6 +3636,33 @@
 					target = PER
 				}								
 			}
+			if = {
+				limit = {
+					original_tag = NEP
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = TIB
+				}								
+			}
+			if = {
+				limit = {
+					original_tag = OMA
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = TIB
+				}								
+			}
+			if = {
+				limit = {
+					original_tag = YEM
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = SAU
+				}								
+			}									
 			#OCEANIA
 			if = {
 				limit = {
@@ -3484,7 +3672,16 @@
 					type = annex_everything
 					target = INS
 				}								
-			}						
+			}
+			if = {
+				limit = {
+					original_tag = NZL
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = AST
+				}								
+			}									
 		}
 	}
 		

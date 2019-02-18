@@ -1,5 +1,56 @@
-#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre, decisions by Thinking_waffle who sends his regards to GreatExperiment 
+political_actions = {
+	r56_commonwealth_decision_declare_independence_from_britain = {
+		
+		icon = generic_independence
 
+		fire_only_once = yes
+
+		cost = 100
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		allowed = {
+			OR = {
+				original_tag = MAL
+				original_tag = RAJ
+				original_tag = NEP
+
+			}
+			NOT = {
+				has_dlc = "Together for Victory"
+			}		
+		}
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = communism
+			}
+			OR = {
+				has_completed_focus = nationalism_focus
+				has_completed_focus = internationalism_focus
+			}
+			is_subject_of = ENG			
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+			end_puppet = ENG
+			leave_faction = yes
+			
+			hidden_effect = {news_event = { id = r56_non_dlc_news_event.1 }}
+			ENG = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_decrease
+				}				
+			}			
+		}
+	}
+}
 war_measures = {
 	r56_ENG_decision_recall_gilbert_stephenson = {
 	

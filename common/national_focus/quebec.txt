@@ -35,40 +35,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = QBC_saguenay_aluminum
-		icon = GFX_focus_generic_aluminum
-		prerequisite = { focus = GEN_Industrial_Start }
-		relative_position_id = GEN_Industrial_Start
-		x = 0
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		allow_branch = {
-			tag = QBC
-		}
-
-		bypass = {
-		}
-
-        completion_reward = {
-            466 = {
-				add_resource = {
-					type = aluminium
-					amount = 12
-					state = 466
-				}                
-            }
-        }
-	}
-
-	focus = {
 		id = QBC_collectivist_ethos
 		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = QBC_political_effort }

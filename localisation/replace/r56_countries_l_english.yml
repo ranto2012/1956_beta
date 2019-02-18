@@ -1124,6 +1124,15 @@
  PUE_neutrality_ADJ:0 "Puerto Rican"
  PUE_communism_ADJ:0 "Puerto Rican"
  
+ RAJ_fascism_ADJ:0 "Indian"
+ RAJ_democratic_ADJ:0 "Indian"
+ RAJ_neutrality_ADJ:0 "Indian"
+ RAJ_communism_ADJ:0 "Indian"
+ RAJ_ENG_fascism_ADJ:0 "Indian"
+ RAJ_ENG_democratic_ADJ:0 "Indian"
+ RAJ_ENG_neutrality_ADJ:0 "Indian"
+ RAJ_ENG_communism_ADJ:0 "Indian" 
+ 
  #RFP
  RFPmck_fascism:0 "Russian Fascist Party"
  RFPmck_fascism_DEF:0 "The Russian Fascist Party"
