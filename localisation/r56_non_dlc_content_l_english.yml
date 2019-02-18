@@ -3,10 +3,10 @@
  #decisions
  r56_commonwealth_decision_declare_independence_from_britain:0 "Declare Independence from Britain"
  #events
- r56_non_dlc_news_event.1.t:0 "[Root.GetNameDef] declares its Independence from Britain!"
+ r56_non_dlc_news_event.1.t:0 "The [Root.GetAdjective] Government Declares its Independence from Britain!"
  r56_non_dlc_news_event.1.desc:0 "\n\nIn an official declaration, the new [Root.GetAdjective] government declared that the relation of dependency between [Root.GetNameDef] and London was against the best [Root.GetAdjective] interests. Freed from [ENG.GetAdjective] colonial oppression, it is clear that the [Root.GetAdjective] government will now be able to  implement a radically different set of policies. \n\nThis news devastated the [ENG.GetAdjective] political class as [ENG.GetLeader] responded briefly by stating that this was coup struck at the Empire."
  r56_non_dlc_news_event.1.a:0 "The Empire is weakened."
  
- r56_non_dlc_news_event.2.t:0 "[ROOT.GetNameDef] Leaves the Commonwealth!"
- r56_non_dlc_news_event.2.desc:0 "\n\nIn an official declaration, the new [Root.GetAdjective] government declared that the relation of military dependency between [Root.GetNameDef] and [ENG.GetNameDef] was against [Root.GetAdjective] interest. Freed from the influence of the Commonwealth, the [Root.GetAdjective] government will now be able to reorient its foreign policy. \n\nIt is clear that this news devastated the [ENG.GetAdjective] political class as [ENG.GetLeader] responded briefly by stating that this was coup struck at the Empire."
+ r56_non_dlc_news_event.2.t:0 "The [Root.GetAdjective] Government Sever Ties with the Commonwealth!"
+ r56_non_dlc_news_event.2.desc:0 "\n\nIn an official declaration, the new [Root.GetAdjective] government declared that the relation of military dependency between [Root.GetNameDef] and [ENG.GetNameDef] was against [Root.GetAdjective] interests. Freed from the influence of the Commonwealth, the [Root.GetAdjective] government will now be able to reorient its foreign policy. \n\nIt is clear that this news devastated the [ENG.GetAdjective] political class as [ENG.GetLeader] responded briefly by stating that this was coup struck at the Empire."
  r56_non_dlc_news_event.2.a:0 "The Empire is weakened." 
