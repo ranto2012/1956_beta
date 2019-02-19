@@ -1664,7 +1664,7 @@ ideas = {
 			}
 			
 			available = {
-				always = yes
+				has_completed_focus = JAP_army_expansion
 			}
 			
 			traits = { army_chief_drill_3 }
