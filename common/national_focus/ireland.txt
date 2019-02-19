@@ -1435,6 +1435,9 @@ focus_tree = {
 				ai_will_do = {
 						factor = 1
 					}
+		available = {
+			has_government = fascism
+		}
 
 				completion_reward = {
 						hidden_effect = {
@@ -1523,6 +1526,11 @@ focus_tree = {
 		}
 		x = 18
 		y = 7
+
+		available = {
+			has_government = communism
+		}
+
 		completion_reward = {
 						hidden_effect = {
 								IRE = {
