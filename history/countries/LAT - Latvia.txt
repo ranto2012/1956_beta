@@ -201,7 +201,7 @@ create_country_leader = {
 }
 create_field_marshal = {
 	name = "Krišjānis Berķis"
-	portrait_path = "gfx/leaders/Europe/portrait_europe_generic_land_7.dds"
+	portrait_path = "gfx/leaders/LAT/r56_portrait_LAT_Karaministri_Krisjanis_Berkis.dds"
 	traits = {
 		politically_connected
 		homeland_connoisseur
