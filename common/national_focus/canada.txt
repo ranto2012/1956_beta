@@ -2201,6 +2201,9 @@ focus_tree = {
 				uses = 1
 				category = motorized_equipment
 			}
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = CAN_ford
+			show_ideas_tooltip = CAN_chevrolet_canada		
 		}
 	}
 
@@ -2551,6 +2554,9 @@ focus_tree = {
 				uses = 1
 				category = cat_light_armor
 			}
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = CAN_montreal_locomotive_works
+			show_ideas_tooltip = CAN_canadian_pacific_railway				
 		}
 	}
 
@@ -2676,6 +2682,8 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = CAN_chevrolet_canada			
 		}
 
 		completion_reward = {
@@ -2725,8 +2733,10 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-				set_state_flag = CAN_shadow_factories_AF3
+				set_state_flag = CAN_shadow_factories_AF3					
 			}
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = CAN_chevrolet_canada			
 		}
 	}
 
@@ -3110,6 +3120,9 @@ focus_tree = {
 				modifier = CAN_permanent_joint_defense_board
 			}
 			give_guarantee = USA
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = CAN_ford
+			show_ideas_tooltip = pratt_and_whitney		
 		}
 	}
 
@@ -4086,6 +4099,8 @@ focus_tree = {
 				technology = fighter2
 				technology = fighter3
 			}
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = pratt_and_whitney			
 		}
 	}
 

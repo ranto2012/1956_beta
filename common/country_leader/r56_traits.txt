@@ -526,6 +526,19 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+###------> CAN <><> <><> <><> <><> <><>
+
+	nuclear_physics_concern = {
+
+		random = no
+
+		production_speed_nuclear_reactor_factor = 0.25 
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
 	
 ###------> COG <><> <><> <><> <><> <><>
 	

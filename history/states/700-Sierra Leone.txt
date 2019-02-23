@@ -5,8 +5,11 @@ state={
 	
 	state_category = pastoral
 	
-	history=
-	{
+	resources = {
+		steel = 2
+	}
+
+	history={
 		owner = ENG
 		victory_points = {
 			2038 1 

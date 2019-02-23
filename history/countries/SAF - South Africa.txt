@@ -264,3 +264,15 @@ create_navy_leader = {
 	traits = { }
 	skill = 3
 }
+create_navy_leader = {
+	name = "James Dalgleish"
+	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_navy_2.dds"
+	traits = { }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Frederick Dean"
+	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_navy_1.dds"
+	traits = { }
+	skill = 1
+}

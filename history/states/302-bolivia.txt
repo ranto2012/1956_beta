@@ -4,7 +4,7 @@ state={
 	resources={
 		tungsten=60 # was: 102.000
 		steel=2 # was: 2.000
-		oil = 2 #small oil wells in the south near the border with Argentina
+		#oil = 1 #small oil wells in the south near the border with Argentina, but probably not even enough to make 1
 	}
 	state_category = city
 

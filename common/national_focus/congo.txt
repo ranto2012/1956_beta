@@ -1432,7 +1432,7 @@ focus_tree = {
 					}
 				}
 			}		
-            has_tech = excavation1
+            has_tech = excavation3 #exploited late
 			COG ={	
 				controls_state = 295
 				controls_state = 718
