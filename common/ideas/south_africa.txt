@@ -916,7 +916,100 @@ ideas = {
 		}
 		
 	}
+	naval_manufacturer = { #yards are true, effects for balance reasons, also those may not be true corporations
+		
+		designer = yes	
+		SAF_cape_town_yard = {
+			picture = generic_naval_manufacturer_2
+
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { convoy_escort_naval_manufacturer }
+		}
+
+		SAF_durban_yard = {
+			picture = generic_naval_manufacturer_1
+
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+		}
+	}		
 	industrial_concern = {
+		SAF_aveng = {
+
+			picture = generic_industrial_concern_1
+			
+			allowed = {
+				original_TAG = SAF
+			}
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+			}
+		}
+		#floating dock was also built in Durban by Dorman Long (Africa) at the request of the British Admiralty and in 1945 this was towed to Singapore.
+		SAF_dorman_long_africa = {
+
+			picture = generic_naval_manufacturer_3
+			
+			allowed = {
+				original_TAG = SAF
+			}
+			
+			available = {
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = SAF_expand_the_simons_town_base
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_dlc = "Together for Victory"
+						}
+					}
+					has_completed_focus = GEN_Dockyards
+				}				
+			}
+
+			research_bonus = {
+				industry = 0.05
+			}
+			
+			traits = { dockyard_engineering_concern }
+			
+			modifier = {
+			}
+		}			
 		SAF_bpi = {
 
 			picture = generic_electronics_concern_1

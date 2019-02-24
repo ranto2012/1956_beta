@@ -1,5 +1,14 @@
 ﻿l_english:
+
+ #unification problems, to slow countries with free cores
+ generic_recent_political_unification:0 "Recent Political Unification"
+ generic_recent_army_unification:0 "Recent Army Unification"
+ generic_recent_economic_unification:0 "Recent Economic Unification"
+
 ###Decisions###
+ political_unification:0 "Political Unification"
+ army_unification:0 "Army Unification"
+ economic_unification:0 "Economic Unification"
  form_transcaucasia_category:0 "Realise Caucasian Unity"
  form_transcaucasia_category_desc:0 "Long have we aspired to be a united Transcaucasia. Once before a united Transcaucasian state has been disolved but this time we are here to stay, united so should restore the second Transcaucasian union."
  form_transcaucasia:0 "Form Transaucasia"

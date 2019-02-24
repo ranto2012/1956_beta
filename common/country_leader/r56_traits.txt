@@ -2221,7 +2221,14 @@ leader_traits = {
 		drift_defence_factor = 0.15
 		communism_drift = 0.1
 	}
-	
+###------> SAF <><> <><> <><> <><> <><>
+
+	dockyard_engineering_concern = {
+		random = no
+		production_speed_dockyard_factor = 0.10
+		production_speed_infrastructure_factor = 0.05
+
+	}	
 ###------> SOV <><> <><> <><> <><> <><>
 	
 	socialism_in_one_country = {
@@ -2448,7 +2455,7 @@ leader_traits = {
 			}
 		}
 		
-		production_speed_infrastructure_factor = 0.1
+		production_speed_infrastructure_factor = 0.05
 		equipment_conversion_speed = 0.1
 		
 		ai_will_do = {

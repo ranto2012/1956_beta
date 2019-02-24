@@ -380,6 +380,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				political_power_cost = 0.15
+				command_power_gain_mult = -0.5 				
 				join_faction_tension = 0.50
 				ai_get_ally_desire_factor = -90
 				ai_call_ally_desire_factor = -40

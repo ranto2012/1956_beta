@@ -1263,8 +1263,6 @@ ideas = {
 
 			}
 			
-
-			
 			research_bonus = {
 				electronics = 0.10
 			}
@@ -1301,10 +1299,8 @@ ideas = {
 			}
 			available = {
 				has_tech = nuclear_reactor
-
+				owns_state = 468
 			}
-			
-
 			
 			research_bonus = {
 				
@@ -1350,7 +1346,10 @@ ideas = {
 				
 			}
 
-			
+			available = {
+				owns_state = 468
+			}
+
 			research_bonus = {
 				artillery = 0.10
 			}
@@ -1484,7 +1483,11 @@ ideas = {
 					original_tag = QBC
 				}	
 			}
-			
+
+			available = {
+				owns_state = 468
+			}		
+
 			research_bonus = {
 				naval_equipment = 0.10
 			}
@@ -1515,14 +1518,22 @@ ideas = {
 			traits = { convoy_escort_naval_manufacturer }
 		}
 
-		CAN_canadian_power_boat_company = {
+		CAN_canadian_power_boat_company = { #installed in Montreal
 			picture = generic_naval_manufacturer_2
 
 			
 			allowed = {
-				original_tag = CAN
+				OR = {
+					original_tag = QBC
+					original_tag = CAN
+				}
+				
 			}
 			
+			available = {
+				owns_state = 468
+			}
+						
 			research_bonus = {
 				naval_equipment = 0.10
 			}
