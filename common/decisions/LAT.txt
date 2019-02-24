@@ -277,12 +277,18 @@ LAT_contact_attaches = {
 			command_power > 24
 			has_political_power > 49
 			NOT = {
-				has_country_flag = LAT_inquired_2_attaches_about_armament
+				OR = {
+					has_country_flag = LAT_inquired_2_attaches_about_armament
+					has_country_flag = LAT_attache_decision_in_progress
+				}
+				
 			}			
 			LAT = { #need to talk to 2 attachés first
 				check_variable = { var_LAT_count_attache_1 > 1 }
 			}
-			
+			LAT = { #do decision max 4 times
+				check_variable = { var_LAT_count_attache_2 < 5 }
+			}			
 			FROM = {
 				NOT = {
 					has_war_with = ROOT
@@ -357,6 +363,7 @@ LAT_contact_attaches = {
 						has_country_flag = LAT_inquired_2_attaches_about_armament
 					}
 				}
+				country_event = { id = LAT_event.1 }
 				set_country_flag = LAT_inquired_2_attaches_about_armament
 				else = {
 					country_event = { id = LAT_event.1 }				
@@ -386,7 +393,11 @@ LAT_contact_attaches = {
         available = {
 #        	custom_effect_tooltip = LAT_tier2_attache_requirement ## apparently this line doesn't work
 			NOT = {
-				has_global_flag = LAT_army_attache_advisor
+				OR = {
+					has_country_flag = LAT_attache_decision_in_progress
+					has_global_flag = LAT_army_attache_advisor
+				}
+				
 			}
 			command_power > 39
 			has_political_power > 119
@@ -424,12 +435,48 @@ LAT_contact_attaches = {
 			add_command_power = -40
 			add_political_power = -110
 			set_global_flag = LAT_army_attache_advisor
-			
 		}
 		remove_effect = {
-			FROM = {
-			
+			if = {
+				limit = {
+					FROM = {
+						original_tag = JAP
+					}
+				}
+				add_ideas = LAT_JAP_army_attache_tamoku_takatsuki
 			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = GER
+					}
+				}
+				add_ideas = LAT_GER_army_attache_horst_rossing
+			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = FRA
+					}
+				}
+				add_ideas = LAT_FRA_army_attache_jacques_hoppenot
+			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = ENG
+					}
+				}
+				add_ideas = LAT_ENG_army_attache_croxton_vale
+			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = USA
+					}
+				}
+				add_ideas = LAT_USA_army_attache_george_huthsteiner
+			}												
 			#add event to choose category of bonus or unlock focuses to study foreign prototypes
 			clr_country_flag = LAT_attache_decision_in_progress
 		}		
@@ -452,7 +499,13 @@ LAT_contact_attaches = {
 
         available = {
 #        	custom_effect_tooltip = LAT_tier2_attache_requirement ## apparently this line doesn't work
-			NOT = {has_global_flag = LAT_navy_attache_advisor}
+			NOT = {
+				OR = {
+					has_country_flag = LAT_attache_decision_in_progress
+					has_global_flag = LAT_navy_attache_advisor
+				}
+				
+			}
 			command_power > 39
 			has_political_power > 119
 			LAT = { #need to talk to 2 attachés first
@@ -492,8 +545,46 @@ LAT_contact_attaches = {
 			
 		}
 		remove_effect = {
-			army_experience = 5
-			#add event to choose category of bonus or unlock focuses to study foreign prototypes
+			if = {
+				limit = {
+					FROM = {
+						original_tag = JAP
+					}
+				}
+				add_ideas = LAT_JAP_naval_attache
+			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = GER
+					}
+				}
+				add_ideas = LAT_GER_naval_attache_reimar_von_bonin
+			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = FRA
+					}
+				}
+				add_ideas = LAT_FRA_naval_attache_cpt_arzur
+			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = ENG
+					}
+				}
+				add_ideas = LAT_ENG_naval_attache
+			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = USA
+					}
+				}
+				add_ideas = LAT_USA_naval_attache
+			}
 			clr_country_flag = LAT_attache_decision_in_progress	
 		}		
 		ai_will_do = {

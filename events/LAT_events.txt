@@ -146,6 +146,31 @@ country_event = { #kegums power plant
 
 	}					
 }
+country_event = { #Ulmanis becomes president 11 April 36
+	id = LAT_event.4
+	title = LAT_event.4.t
+	desc =  LAT_event.4.desc
+	picture = GFX_report_event_election_vote
+	
+	#change conditions when the political tree is done to allow a democratic alternative-> Pauls Kalniņš leader
+	trigger = {
+		original_tag = LAT
+		has_government = neutrality
+		date > 1936.04.04
+
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	option = {
+		name = LAT_event.4.a
+		retire_country_leader = yes
+	}					
+}
 
 #country_event = { #add italian GW tanks at the beginning of the game
 #	id = LAT_event.99

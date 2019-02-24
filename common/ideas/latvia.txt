@@ -41,10 +41,11 @@
 #navy : Theodor Spade
 
 ###ATTACHES###
-#tamoku_takatsuki japanese attaché
+#makoto onodera 35-38
+#tamoku_takatsuki japanese attaché 38-40
 #jacques_hoppenot French attaché
 #Gustav B. Guenther American attaché to the baltic states -38
-#George E. Huthsteiner American attaché to the baltic states 38-40--> Frank B Hayne instead (finland?)
+#George E. Huthsteiner American attaché to the baltic states 38-40, Frank B Hayne attaché in Moscow
 #Sir Edmund Monson, 3rd Baronet british ambassador baltic countries, the attaché was colonel Croxton S. Vale
 #Reimar von Bonin, the German navy attache in latvia estonia and finland
 #Major Horst Rössing, German attaché Latvia Estonia and Finland 
@@ -68,7 +69,21 @@ ideas = {
 				land_doctrine = 0.05
 			}			
 		}
-		LAT_USA_army_attache_tamoku_takatsuki = {
+		LAT_JAP_naval_attache = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			research_bonus = {
+				naval_doctrine = 0.05
+			}			
+		}		
+		LAT_USA_army_attache_george_huthsteiner = {
 			allowed = {
 				always = no
 			}
@@ -81,7 +96,21 @@ ideas = {
 			research_bonus = {
 				land_doctrine = 0.05
 			}			
-		}		
+		}
+		LAT_USA_naval_attache = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			research_bonus = {
+				naval_doctrine = 0.05
+			}			
+		}				
 		LAT_FRA_army_attache_jacques_hoppenot = {
 			allowed = {
 				always = no
@@ -111,7 +140,67 @@ ideas = {
 			research_bonus = {
 				naval_doctrine = 0.05
 			}			
-		}						
+		}
+		LAT_ENG_army_attache_croxton_vale = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+
+				}
+			}
+			research_bonus = {
+				land_doctrine = 0.05
+			}			
+		}		
+		LAT_ENG_naval_attache = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+
+				}
+			}
+			research_bonus = {
+				naval_doctrine = 0.05
+			}			
+		}
+		LAT_GER_army_attache_horst_rossing = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+
+				}
+			}
+			research_bonus = {
+				land_doctrine = 0.05
+			}			
+		}		
+		LAT_GER_naval_attache_reimar_von_bonin = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+
+				}
+			}
+			research_bonus = {
+				naval_doctrine = 0.05
+			}			
+		}									
 		LAT_fortifications = {
 			allowed = {
 				always = no

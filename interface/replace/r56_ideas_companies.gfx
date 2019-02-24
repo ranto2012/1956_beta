@@ -391,7 +391,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/cze/companies/r56_idea_CZE_company_tatra.dds"
 	}
 
-
+###------> EST <><> <><> <><> <><> <><>
+	spriteType = {
+		name = "GFX_idea_EST_tallinn_radiotehas"
+		texturefile = "gfx/interface/ideas/EST/companies/r56_idea_EST_tallinn_radiotehas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EST_eesti_kivioli"
+		texturefile = "gfx/interface/ideas/EST/companies/r56_idea_EST_eesti_kivioli.dds"
+	}
+	
+	
 ###------> FIN <><> <><> <><> <><> <><>
 		spriteType = {
 		name = "GFX_idea_crichton"
@@ -818,7 +828,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_LAT_sellier_and_bellot_riga"
-		texturefile = "gfx/interface/ideas/lat/companies/r56_idea_LAT_valsts_elektrotehniska_fabrika_rrr.dds"
+		texturefile = "gfx/interface/ideas/lat/companies/r56_idea_LAT_sellier_bellot.dds"
 	}	
 
 

@@ -1,5 +1,7 @@
 ﻿l_english:
 #I can't believe that I have to put this in a localization file
+#Latvian Central Council boost legitimacy for democrats
+#Pauls Kalniņš president of the parliament, legitimate successor to the presidency in 1936
  available_materiel_manufacturer:0 "Available as Material Manufacturer:"
 
 ##renovate coastal forts
@@ -16,6 +18,17 @@
  LAT_bombing_sights:0 "VEF Bombing Sights"
  LAT_modern_cameras:0 "Modern Cameras"
  
+ ##attachés
+ LAT_JAP_army_attache_tamoku_takatsuki:0 "Tamoku Takatsuki"
+ LAT_JAP_naval_attache:0 "Japanese Naval Attaché"
+ LAT_USA_army_attache_george_huthsteiner:0 "George E. Huthsteiner"
+ LAT_USA_naval_attache:0 "American Naval Attaché"
+ LAT_FRA_army_attache_jacques_hoppenot:0 "Jacques Hoppenot"
+ LAT_FRA_naval_attache_cpt_arzur:0 "Captain Arzur"
+ LAT_ENG_army_attache_croxton_vale:0 "Croxton S. Vale"
+ LAT_ENG_naval_attache:0 "British Naval Attaché"
+ LAT_GER_army_attache_horst_rossing:0 "Horst Rössing"
+ LAT_GER_naval_attache_reimar_von_bonin:0 "Reimar von Bonin"
  ##politics
  LAT_janis_balodis:0 "Jānis Balodis"
  
@@ -187,6 +200,10 @@
  LAT_event.3.t:0 "The Kegums Power Plant is Complete!"
  LAT_event.3.desc:0 "After years of work and investment the dam is finally operationnal. This is a gigantic accomplishment and the proof of Latvian ingenuity" 
  LAT_event.3.a:0 "Huzzah!" 
+ 
+ LAT_event.4.t:0 "The Mandate of Alberts Kviesis is Coming to an End."
+ LAT_event.4.desc:0 "As mandated by the constitution, the Kviesis' presidency is ending. While the consitution stipulates that the president of the parliament should succeed him, the Minister-President Ulmanis designed a law in order to cumulate his current position with the presidency. Therefore he will be able to concentrate even more power and reinforce his dictatorship." 
+ LAT_event.4.a:0 "The game has been rigged years ago."
  
  LAT_infantry_equipment_0:0 "M-N 1891/30"
  LAT_infantry_equipment_0_short:0 "M-N 1891/30"
