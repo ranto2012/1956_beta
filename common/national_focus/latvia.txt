@@ -14,7 +14,7 @@ focus_tree = {
 
 	focus = {
 		id = LAT_VEF_radio_production
-		icon = GFX_goal_generic_radar
+		icon = GFX_goal_generic_radio_development
 		x = 3
 		y = 0
 		cost = 10
@@ -176,7 +176,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LAT_modernized_signal_corps
-		icon = GFX_goal_generic_radar
+		icon = GFX_goal_generic_radio_development_2
 		relative_position_id = LAT_VEF_industrial_development
 		prerequisite = { focus = LAT_VEF_industrial_development}
 		x = 0
