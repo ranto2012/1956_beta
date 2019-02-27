@@ -864,10 +864,13 @@ ideas = {
 
 			available = {
 				has_completed_focus = LAT_contact_foreign_industrial_partners
-				has_opinion = {
-    				target = SWE
-    				value > 0
+				SWE = {
+					has_opinion = {
+	    				target = LAT
+	    				value > 0
+					}
 				}
+
 			}
 
 			cost = 150
