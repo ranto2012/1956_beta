@@ -1,0 +1,12 @@
+r56_MAN_legitimacy_category = {
+
+	icon = army_reform
+
+	allowed = {
+		tag = MAN
+	}
+
+	visible = {
+		tag = MAN
+	}
+}
