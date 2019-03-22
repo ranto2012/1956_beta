@@ -1,6 +1,7 @@
 ﻿capital = 126
 
-oob = "ENG_1936"
+set_oob = "ENG_1936"
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -55,7 +56,7 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
-#MTG
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
@@ -86,7 +87,6 @@ if = {
 		basic_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		early_ship_hull_carrier = 1
-		basic_ship_hull_carrier = 1
 		basic_battery = 1
 		basic_light_battery = 1
 		basic_medium_battery = 1
@@ -421,7 +421,7 @@ create_country_leader = {
 	desc = "POLITICS_HARRY_POLLITT_DESC"
 	picture = "portrait_eng_harry_pollitt.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = leninism
 	traits = {
 		staunch_stalinist
 	}
@@ -1098,7 +1098,7 @@ if = {
 			fixed_ship_battery_slot = ship_light_battery_2
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			mid_1_custom_slot = ship_torpedo_1
@@ -1115,7 +1115,7 @@ if = {
 			fixed_ship_battery_slot = ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			mid_1_custom_slot = ship_torpedo_1
@@ -1341,6 +1341,25 @@ if = {
 			rear_1_custom_slot = ship_heavy_battery_1
 		}
 	}
+	create_equipment_variant = {
+		name = "G3 Design"
+		type = ship_hull_heavy_1
+		name_group = ENG_BC_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bc_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = empty
+		}
+	}
 	# Battleships #
 	create_equipment_variant = {
 		name = "Nelson Class"
@@ -1449,9 +1468,23 @@ if = {
 		}
 		obsolete = yes
 	}
-	
+	create_equipment_variant = {
+			name = "Ark Royal Class"
+			type = ship_hull_carrier_1
+			name_group = ENG_CV_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = carrier_ship_engine_2
+				fixed_ship_secondaries_slot = ship_secondaries_2
+				front_1_custom_slot = ship_deck_space
+			}
+		}
+	}
 }
-
 
 1939.1.1 = {
 	if = {
@@ -1482,21 +1515,6 @@ if = {
 	if = {
 		limit = {
 			has_dlc = "Man the Guns"
-		}
-		create_equipment_variant = {
-			name = "Ark Royal Class"
-			type = ship_hull_carrier_1
-			name_group = ENG_CV_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries
-				front_1_custom_slot = ship_deck_space
-			}
 		}
 		create_equipment_variant = {
 			name = "Illustrious Class"
@@ -1629,6 +1647,25 @@ if = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub_2
 				fixed_ship_engine_slot = sub_ship_engine_2
 				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Lion Class" # 1938 variant
+			type = ship_hull_heavy_2
+			name_group = ENG_BB_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_3
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_secondaries_slot = dp_ship_secondaries
+				fixed_ship_armor_slot = ship_armor_bb_2
+				front_1_custom_slot = ship_anti_air_1
+				mid_1_custom_slot = ship_airplane_launcher_1
+				mid_2_custom_slot = dp_ship_secondaries
+				rear_1_custom_slot = ship_heavy_battery_3
 			}
 		}
 		create_equipment_variant = {
