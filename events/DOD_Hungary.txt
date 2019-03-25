@@ -390,6 +390,7 @@ country_event = {
 			add_state_claim = 73
 			add_state_claim = 72
 			add_state_claim = 664
+			add_state_claim = 790
 		
 	}
 
@@ -2902,6 +2903,7 @@ country_event = {
 	option = {# great
 		name = DOD_hungary.81.a
 		transfer_state = 664
+		transfer_state = 790
 		
 	}
 }
@@ -3025,7 +3027,7 @@ country_event = {
 			create_wargoal = {
 				type = take_state_focus
 				target = CZE
-				generator = { 664 }
+				generator = { 664 790 }
 			}
 		}
 		if = {
@@ -3038,7 +3040,7 @@ country_event = {
 			create_wargoal = {
 				type = take_state_focus
 				target = SLO
-				generator = { 664 }
+				generator = { 664 790 }
 			}
 		}
 		hidden_effect = {
@@ -3074,27 +3076,27 @@ country_event = {
 		if = {
 			limit = { 
 				CZE = {
-					owns_state = 664
+					owns_state = { 664 790 }
 				}
 			}
 
 			create_wargoal = {
 				type = take_state_focus
 				target = CZE
-				generator = { 664 }
+				generator = { 664 790 }
 			}
 		}
 		if = {
 			limit = { 
 				SLO = {
-					owns_state = 664
+					owns_state = { 664 790 }
 				}
 			}
 
 			create_wargoal = {
 				type = take_state_focus
 				target = SLO
-				generator = { 664 }
+				generator = { 664 790}
 			}
 		}
 	}
@@ -3183,6 +3185,7 @@ country_event = {
 	option = {# great
 		name = DOD_hungary.91.a
 	  	transfer_state = 45
+		transfer_state = 793
 	}
 }
 
@@ -3339,7 +3342,7 @@ country_event = {
 			limit = {
 				tag = GER
 			}
-			add_state_claim = 102#Slovenia
+			add_state_claim = 792 #Slovenia
 			if = {
 				limit = {
 					HUN = {
@@ -3362,6 +3365,7 @@ country_event = {
 				tag = ITA
 			}
 			add_state_claim = 103#Dalmatia
+			add_state_claim = 102
 			HUN = { country_event = { id = DOD_hungary.94 hours = 6 } }
 		}
 
@@ -3439,8 +3443,8 @@ country_event = {
 		}
 		if = {
 			limit = {
-				102 = { is_claimed_by = GER }
-				NOT = { 103 = { is_claimed_by = ITA } } #only GER agreed
+				793 = { is_claimed_by = GER }
+				NOT = { 792 = { is_claimed_by = ITA } } #only GER agreed
 			}
 			add_threat = 1
 			
@@ -3536,7 +3540,7 @@ country_event = {
 	desc = {
 		text = DOD_hungary.96.desc_HUN_GER
 		trigger = { 
-			102 = { is_claimed_by = GER } 
+			792 = { is_claimed_by = GER } 
 			103 = { NOT = { is_claimed_by = ITA } }
 		}
 	}
@@ -3544,13 +3548,13 @@ country_event = {
 		text = DOD_hungary.96.desc_HUN_ITA
 		trigger = { 
 			102 = { NOT = { is_claimed_by = GER } }
-			103 = { is_claimed_by = ITA } 
+			793 = { is_claimed_by = ITA } 
 		}
 	}
 	desc = {
 		text = DOD_hungary.96.desc_HUN_both
 		trigger = { 
-			102 = { is_claimed_by = GER } 
+			793 = { is_claimed_by = GER } 
 			103 = { is_claimed_by = ITA } 
 		}
 	} 
@@ -3565,9 +3569,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				102 = { is_claimed_by = GER }
+				793 = { is_claimed_by = GER }
 			}
-			GER = { transfer_state = 102 }
+			GER = { transfer_state = 792 }
 		}
 		if = {	
 			limit = {
@@ -3576,6 +3580,7 @@ country_event = {
 			ITA = { transfer_state = 103 }
 		}
 		HUN = { transfer_state = 45 }
+		HUN = { transfer_state = 793 }
 	}
 	option = {# defiance
 		name = DOD_hungary.96.b
@@ -3595,7 +3600,7 @@ country_event = {
 		}
 		if = {	
 			limit = {
-				102 = { is_claimed_by = GER }
+				792 = { is_claimed_by = GER }
 			}
 			GER = { country_event = DOD_hungary.97 }
 		}
@@ -3617,25 +3622,25 @@ country_event = {
 		if = {
 			limit = { 
 				tag = GER
-				102 = { is_claimed_by = GER } }
+				792 = { is_claimed_by = GER } }
 			GER = { 
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG
-					generator = { 102 }
+					generator = { 792 }
 				}
 			}
 		}
 		if = {
 			limit = { 
 				tag = ITA
-				103 = { is_claimed_by = ITA } 
+				102 = { is_claimed_by = ITA } 
 			}
 			ITA = { 
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG
-					generator = { 103 }
+					generator = { 102 }
 				}
 			}
 		}
@@ -3721,6 +3726,8 @@ country_event = {
 			transfer_state = 71
 			transfer_state = 72
 			transfer_state = 73
+			transfer_state = 664
+			transfer_state = 790
 		}
 		if = {
 			limit = {
@@ -3769,6 +3776,15 @@ country_event = {
 				}
 			}
 			HUN = { transfer_state = 73 }
+		}
+		if = {
+			limit = {
+				154 = { is_owned_by = HUN }
+				790 = {
+					is_owned_by = CZE
+				}
+			}
+			HUN = { transfer_state = 790 }
 		}
 		if = {
 			limit = {
@@ -3915,7 +3931,7 @@ country_event = {
 		create_wargoal = {
 				type = take_state_focus
 				target = CZE
-				generator = { 70 71 72 73 }
+				generator = { 70 71 72 73 664 790 }
 			}
 		hidden_effect = {
 			news_event = { id = news.311 days = 1 }
@@ -3950,7 +3966,7 @@ country_event = {
 		create_wargoal = {
 				type = take_state_focus
 				target = CZE
-				generator = { 70 71 72 73 }
+				generator = { 70 71 72 73 664 790 }
 		}
 		hidden_effect = {
 			news_event = { id = news.311 days = 1 }
@@ -4732,6 +4748,7 @@ country_event = {
 				add_state_core = 72
 				add_state_core = 73
 				add_state_core = 664
+				add_state_core = 790
 			}
 		}
 	}

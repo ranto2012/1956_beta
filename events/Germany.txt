@@ -39,6 +39,12 @@ country_event = {
 				add_core_of = GER
 			}
 		}
+		791 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
 		AUS = {
 			every_unit_leader = {
 				set_nationality = GER
@@ -1011,10 +1017,11 @@ country_event = {
 		add_state_claim = 4
 		add_state_claim = 152
 		add_state_claim = 153
+		add_state_claim = 791
 		create_wargoal = {
 			type = take_state_focus
 			target = AUS
-			generator = { 4 152 153 }
+			generator = { 4 152 153 791 }
 		}
 	}
 }
@@ -1881,6 +1888,7 @@ country_event = {
 	option = {
 		name = germany.51.a
 		HUN = { transfer_state = 664 }
+		HUN = { transfer_state = 790 }
 	}
 }
 
@@ -2163,6 +2171,23 @@ country_event = {
 			HUN = { transfer_state = 73 }
 		}
 
+		
+		if = {
+			limit = {
+				154 = { is_owned_by = HUN }
+				HUN = {
+					is_friend_or_potential_friend_of_GER = yes
+				}
+				791 = {
+					OR = {
+						is_owned_by = CZE
+						is_owned_by = GER
+					}
+				}
+				country_exists = HUN 
+			}
+			HUN = { transfer_state = 790 }
+		}
 		
 		if = {
 			limit = {
@@ -2452,6 +2477,17 @@ country_event = {
 				}
 			}
 			SLO = { transfer_state = 664 }
+		}
+		if = {
+			limit = {
+				664 = {
+					OR = {
+						is_owned_by = CZE
+						is_owned_by = GER
+					}
+				}
+			}
+			SLO = { transfer_state = 790 }
 		}
 		if = {
 			limit = { country_exists = CZE }
@@ -4200,7 +4236,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = YUG
-			generator = { 102 }
+			generator = { 792 }
 		}
 		hidden_effect = {
 			news_event = { id = news.164 hours = 6 }
@@ -4220,7 +4256,9 @@ country_event = {
 	
 	option = {
 		name = germany.94.a
-		GER = { transfer_state = 102 }
+		GER = { transfer_state = 792 }
+		ITA = { transfer_state = 102 }
+		HUN = { transfer_state = 793 }
 		set_country_flag = slovenia_acquired
 		hidden_effect = {
 			news_event = { id = news.163 hours = 6 }
@@ -4242,7 +4280,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = YUG
-			generator = { 102 }
+			generator = { 792 }
 		}
 		hidden_effect = {
 			news_event = { id = news.166 hours = 6 }
@@ -4264,7 +4302,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = YUG
-			generator = { 102 }
+			generator = { 792 }
 		}		
 		hidden_effect = {
 			news_event = { id = news.167 hours = 6 }		
@@ -4286,7 +4324,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = YUG
-			generator = { 102 }
+			generator = { 792 }
 		}
 		hidden_effect = {
 			news_event = { id = news.165 hours = 6 }

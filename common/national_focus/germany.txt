@@ -928,6 +928,7 @@ focus_tree = {
 							owns_state = 4
 							owns_state = 152
 							owns_state = 153
+							owns_state = 791
 						}
 					}
 				}
@@ -979,6 +980,21 @@ focus_tree = {
 					}
 				}
 				add_state_core = 153
+			}
+			if = {
+				limit = {
+					791 = {
+						owner = {
+							NOT = {
+								tag = AUS
+							}
+							NOT = {
+								is_in_faction_with = ROOT
+							}
+						}
+					}
+				}
+				add_state_core = 791
 			}
 		}
 	}
@@ -2529,6 +2545,8 @@ focus_tree = {
 			YUG = {
 				r56_script_target_is_sane = yes
 				owns_state = 102
+				owns_state = 792
+				owns_state = 793
 			}
 			controls_state = 4
 			controls_state = 152
@@ -2540,7 +2558,11 @@ focus_tree = {
 				YUG = {
 					r56_script_standard_bypass = yes
 				}
-				NOT = { YUG = { owns_state = 102 } }				
+				NOT = {
+					YUG = { owns_state = 789 }
+					YUG = { owns_state = 788 }
+					YUG = { owns_state = 102 }
+				}				
 			}
 		}
 		
@@ -2615,11 +2637,11 @@ focus_tree = {
 				AND = {
 					country_exists = YUG
 					NOT = { has_war_with = YUG }
-					owns_state = 102
+					owns_state = 792
 				}
 				AND = {
 					NOT = { country_exists = YUG }
-					owns_state = 102
+					owns_state = 792
 					owns_state = 45
 					owns_state = 106
 					owns_state = 103

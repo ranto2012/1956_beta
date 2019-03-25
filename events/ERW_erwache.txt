@@ -568,10 +568,11 @@ country_event = {
 		add_state_claim = 4
 		add_state_claim = 152
 		add_state_claim = 153
+		add_state_claim = 791
 		create_wargoal = {
 			type = take_state_focus
 			target = AUS
-			generator = { 4 152 153 }
+			generator = { 4 152 153 791 }
 		}
 	}
 }
@@ -600,6 +601,12 @@ country_event = {
 			}
 		}
 		153 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		791 = {
 			if = {
 				limit = { is_owned_by = AUS }
 				add_core_of = GER
