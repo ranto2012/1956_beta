@@ -1,0 +1,31 @@
+
+state={
+	id=791
+	name="STATE_791"
+	manpower = 113800
+	
+	state_category = rural
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AUS
+
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+		}
+		1939.1.1 = {
+			buildings = {
+				anti_air_building = 5
+			}
+		}
+	}
+
+	provinces={
+		3700 9661 11630
+	}
+}
