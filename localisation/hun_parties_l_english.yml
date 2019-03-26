@@ -1,0 +1,89 @@
+﻿l_english:
+ HUN_fascism_party:0 "NYKP-HM"
+ HUN_fascism_party_long:0 "Nyilaskeresztes Párt - Hungarista Mozgalom"
+ 
+ HUN_communism_party:0 "KMP"
+ HUN_communism_party_long:0 "Kommunisták Magyarországi Pártja"
+ 
+ HUN_democratic_party:0 "FKgP"
+ HUN_democratic_party_long:0 "Független Kisgazdapárt"
+ 
+ HUN_neutrality_party:0 "NEP"
+ HUN_neutrality_party_long:0 "Nemzeti Egység Pártja"
+ 
+ HUN_fuggetlen_kisgazdapart:0 "FKgP"
+ HUN_fuggetlen_kisgazdapart_long:0 "Független Kisgazdapárt"
+ 
+ HUN_arrow_cross_party:0 "NYKP-HM"
+ HUN_arrow_cross_party_long:0 "Nyilaskeresztes Párt - Hungarista Mozgalom"
+ 
+ HUN_nkp:0 "NKP"
+ HUN_nkp_long:0 "Nemzeti Koalíciós Párt"
+ 
+ HUN_f48_kossuth:0 "F48KP"
+ HUN_f48_kossuth_long:0 "Függetlenségi és 48-as Kossuth Párt"
+ 
+ 
+ HUN_horthy_supporters:0 "BEP"
+ HUN_horthy_supporters_long:0 "Birodalmi Egység Párt"
+ HUN_komp:0 "KOMP"
+ HUN_komp_long:0 "Kommunisták Osztrák-Magyar Pártja"
+ HUN_federationists:0 "Federationists"
+ HUN_imperialists:0 "Imperialists" 
+ HUN_nemzeti_egyseg_part:0 "NEP"
+ HUN_nemzeti_egyseg_part_long:0 "Nemzeti Egység Pártja"
+ HUN_conservatives:0 "Conservatives" 
+ HUN_mszmp:0 "MSZMP"
+ HUN_mszmp_long:0 "Magyar Szocialista Munkáspárt"
+ HUN_mdp:0 "MDP"
+ HUN_mdp_long:0 "Magyar Dolgozók Pártja"
+ HUN_AHU_supremacists:0 "AHS"
+ HUN_AHU_supremacists_long:0 "Austro-Hungarian Supremacists"
+ 
+ CZE_neutrality_party:0 "Imperialists"
+ 
+ GER_royalists:0 "Royalists"
+ 
+ #Bródy Government
+ RUT_neutrality_party:0 "AAS"
+ RUT_neutrality_party_long:0 "Avtonomna Asotsiatsiya Selyanska"
+
+ RUT_communism_party:0 "RKP"
+ RUT_communism_party_long:0 "Karpatska Komunistychna Partiya"
+ RUT_fascism_party:0 "RNSP"
+ RUT_fascism_party_long:0 "Karpatska Natsional-Sotsialistychna Partiya"
+ RUT_democratic_party:0 "RLP"
+ RUT_democratic_party_long:0 "Karpatska Liberalna Partiya"
+
+ #Volosin Government
+ RUT_uno_party:0 "UNO"
+ RUT_uno_party_long:0 "Ukrayinska Natsionalna Orhanizatsiya"
+
+ #Transylvania controlled by Hungary
+ TRA_neutrality_party:0 "Erdélyi Párt"
+ TRA_communism_party:0 "EKSZ"
+ TRA_communism_party_long:0 "Erdélyi Kommunisták Szövetsége"
+ TRA_fascism_party:0 "SZFM"
+ TRA_fascism_party_long:0 "Székely Fasiszta Mozgalom"
+ TRA_democratic_party:0 "EDP"
+ TRA_democratic_party_long:0 "Erdélyi Demokrata Párt"
+ 
+ #Transylvania controlled by Romania
+ TRA_ROM_neutrality_party:0 "PPT"
+ TRA_ROM_neutrality_party_long:0 "Partidul Popular din Transilvania"
+ TRA_ROM_communism_party:0 "PCT"
+ TRA_ROM_communism_party_long:0 "Partidul Comunist din Transilvania"
+ TRA_ROM_fascism_party:0 "PNST"
+ TRA_ROM_fascism_party_long:0 "Partidul Național Socialist din Transilvania"
+ TRA_ROM_democratic_party:0 "PLT"
+ TRA_ROM_democratic_party_long:0 "Partidul Liberal din Transilvania" 
+ 
+ #Szeklerland
+ SZE_neutrality_party:0 "SzPP"
+ SZE_neutrality_party_long:0 "Szekler People's Party"
+ SZE_communism_party:0 "USzC"
+ SZE_communism_party_long:0 "Union of Szekler Communists"
+ SZE_fascism_party:0 "SzRP"
+ SZE_fascism_party_long:0 "Szekler Radical Party"
+ SZE_democratic_party:0 "SzRef"
+ SZE_democratic_party_long:0 "Szekler Reform Party"
