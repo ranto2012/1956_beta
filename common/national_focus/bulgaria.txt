@@ -63,6 +63,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = communist_influence
+			custom_effect_tooltip = available_political_advisor
+      show_ideas_tooltip = BUL_hristo_kabakchiev
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 	}
 
@@ -142,7 +148,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BUL_ties_with_ussr
-		icon = GFX_focus_generic_russian_deal_communist
+		icon = GFX_focus_chi_mission_to_the_soviet_union
 		prerequisite = { focus = BUL_rally_the_proletariat focus = BUL_align_with_molotov_ribbentrop_pact}
 		relative_position_id = BUL_rally_the_proletariat
 		x = 1
@@ -173,7 +179,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BUL_balkan_revolution
-		icon = GFX_focus_generic_communist_yugoslavia_deal
+		icon = GFX_goal_befriend_communist_YUG
 		prerequisite = { focus = BUL_rally_the_proletariat }
 		relative_position_id = BUL_rally_the_proletariat
 		x = -1
@@ -235,11 +241,15 @@ focus_tree = {
 		}
 		completion_reward = {
       add_stability = 0.10
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
 			48 = {
 			  add_extra_state_shared_building_slots = 1
 		  }
 	  }
-  }	
+  }
 	focus = {
 		id = BUL_nationalizations
 		icon = GFX_goal_communist_factories
@@ -284,6 +294,12 @@ focus_tree = {
 				  instant_build = yes
 			  }
 		  }
+			add_tech_bonus = {
+				name = BUL_communist_heavy_industry_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
 	  }
   }
 	focus = {
@@ -302,7 +318,7 @@ focus_tree = {
 			add_ideas = SLO_purge_the_army
 			add_popularity = {
 				ideology = communism
-				popularity = 0.08
+				popularity = 0.05
 			}
 			if = {
 				limit = {

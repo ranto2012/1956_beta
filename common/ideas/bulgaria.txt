@@ -42,7 +42,7 @@ country = {
 		  enemy_partisan_effect = -0.1
 		  foreign_subversive_activites = -0.4
 	  }
-  }	
+  }
 		BUL_fledgeling_military_industry = {
 
 			allowed = {
@@ -504,11 +504,12 @@ country = {
 			allowed = {
 				original_tag = BUL
 				}
-			traits = { communist_revolutionary }
 
-			on_add = {
-				country_event = political.1
-			}
+      available = {
+        has_completed_focus = BUL_revoke_censorship_communist_material
+      }
+
+			traits = { communist_revolutionary }
 
 			do_effect = {
 				NOT = {

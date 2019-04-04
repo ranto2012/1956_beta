@@ -3,7 +3,7 @@
 oob = "BUL_1936"
 
 add_ideas = {
-	limited_conscription
+	volunteers_only
 }
 
 set_technology = {
@@ -80,19 +80,19 @@ set_politics = {
 
 	parties = {
 		democratic = {
-			popularity = 5
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 35
+			popularity = 5
 		}
 
 		communism = {
-			popularity = 0
+			popularity = 5
 			banned = yes
 		}
 		neutrality = {
-			popularity = 60
+			popularity = 80
 		}
 	}
 
